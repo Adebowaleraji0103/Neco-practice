@@ -17,7 +17,9 @@ function App() {
       <Button label="Submit" />
       <Button label="Delete" />
 
-      <ProductCard />
+      <ProductCard title="Shoes" price="$50" />
+      <ProductCard title="Shirt" price="$20" />
+      <ProductCard title="Watch" price="$100" />
     </div>
   );
 }
