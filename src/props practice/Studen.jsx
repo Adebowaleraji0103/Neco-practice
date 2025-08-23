@@ -1,8 +1,6 @@
 function Student (props) {
     return(
-        <div>
-            <p>Name : {props.name} </p>
-        </div>
+     <div></div>
     )
 }
 export default Student;
