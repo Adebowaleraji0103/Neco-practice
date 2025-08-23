@@ -1,3 +1,8 @@
 function ProductCard () {
-    re
+    return (
+        <div>
+            
+        </div>
+    )
 }
+export default ProductCard;
