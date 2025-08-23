@@ -3,7 +3,7 @@ import Student from "./props practice/Studen";
 function App() {
   return (
     <div>
-      <Student/>
+      <Student name = "Mubarak" age = {30}/>
     </div>
   )
 
