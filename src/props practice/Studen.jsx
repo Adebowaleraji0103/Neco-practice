@@ -10,9 +10,6 @@ function Student(props) {
         <p>Hello {props.name} welcome </p>
       </div>
 
-<div>
-    <button><a href=""> {props.label}</a></button>
-</div>
 
     </div>
   );

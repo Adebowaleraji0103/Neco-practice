@@ -1,3 +1,4 @@
+import Button from "./props practice/Button";
 import Student from "./props practice/Studen";
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
       <Student name = "Sarah"/>
 
 
-      <Student label = "Click Me"/>
-      <Student label = "Submit"/>
-      <Student label = "Delete"/>
+      <Button label = "Click Me"/>
+      <Button label = "Submit"/>
+      <Button label = "Delete"/>
 
 
     </div>
