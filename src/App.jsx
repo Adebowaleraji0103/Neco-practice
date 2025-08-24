@@ -31,7 +31,7 @@ function App() {
       />
 
       {/* Third Dropdown */}
-      <DropDown 
+      <FirstDropDown 
         label="Cities" 
         options={["Lagos", "Abuja", "Ibadan"]} 
       />
