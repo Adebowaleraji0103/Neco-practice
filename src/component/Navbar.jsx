@@ -2,15 +2,14 @@ import { MdMenu } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="flex justify-evenly py-3 px-6 shadow-2xl">
       <div>Logo</div>
 
       <div>
         <MdMenu className="md:hidden"/>
       </div>
 
-      <nav className="hidden md:flex">
-        <ul>
+        <ul className=" hidden md:flex">
             <li>Home</li>
             <li>About Neco</li>
             <li>Our Exam</li>
@@ -22,7 +21,6 @@ const Navbar = () => {
         </ul>
 
         <button>Login</button>
-      </nav>
     </header>
   );
 };
