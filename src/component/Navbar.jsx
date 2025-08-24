@@ -8,6 +8,10 @@ const Navbar = () => {
       <div>
         <MdMenu />
       </div>
+
+      <nav>
+        
+      </nav>
     </header>
   );
 };
