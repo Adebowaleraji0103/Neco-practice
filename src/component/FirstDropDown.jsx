@@ -10,7 +10,7 @@ const FirstDropDown = () => {
         Menu
       </button>
       {IsOpen && (
-        <ul className="absolute flex flex-col gap-4 px-[4rem] py-[1rem] shadow-lg shadow-gray-300">
+        <ul className="absolute left-1/2 -translate-x-1/2 flex flex-col gap-4 px-[4rem] py-[1rem] shadow-lg shadow-gray-300">
             <li>Mubby</li>
             <li>Shade</li>
             <li>Ade</li>
