@@ -1,4 +1,4 @@
-import Main from "./props practice/Main";
+import Main from "./props practice/MainPropPractice";
 
 function App() {
   return (

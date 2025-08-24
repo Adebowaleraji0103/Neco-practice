@@ -2,7 +2,7 @@ import Button from "./props practice/Button";
 import ProductCard from "./props practice/ProductCard";
 import Student from "./props practice/Studen";
 
-function Main() {
+function MainPropPractice() {
   return (
     <div className="flex flex-col gap-1 pt-5">
       {/* <Student name = "Mubarak" age = {30}/>
@@ -23,4 +23,4 @@ function Main() {
     </div>
   );
 }
-export default Main;
+export default MainPropPractice;
