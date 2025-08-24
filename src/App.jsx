@@ -19,14 +19,13 @@ function App() {
   return (
     <div className="flex flex-col gap-6 items-center pt-10">
       {/* First Dropdown */}
-      <FirstDropDown/>
-      <DropDown 
-        label="Students" 
+      <FirstDropDown
+       label="Students" 
         options={["Mubarak", "Shade", "Ade"]} 
       />
-
+      
       {/* Second Dropdown */}
-      <DropDown 
+      <FirstDropDown 
         label="Products" 
         options={["Shoes", "Shirt", "Watch"]} 
       />
