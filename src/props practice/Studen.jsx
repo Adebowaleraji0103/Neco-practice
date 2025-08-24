@@ -16,8 +16,3 @@ function Student(props) {
 }
 export default Student;
 
-{
-  /* <Button label="Click Me" />
-<Button label="Submit" />
-<Button label="Delete" /> */
-}
