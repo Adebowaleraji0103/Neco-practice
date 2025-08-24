@@ -1,8 +1,8 @@
-function Button(props) {
+function Button({label}) {
   return (
     <div>
       <button>
-        <a href=""> {props.label}</a>
+        <a href=""> {label}</a>
       </button>
     </div>
   );
