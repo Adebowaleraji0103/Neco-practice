@@ -5,10 +5,17 @@ const FirstDropDown = () => {
   return (
     <div>
       <button  
-      onClick={()=> {setIsOpen}}
+      onClick={()=> setIsOpen (!IsOpen)}
       className="items-center flex justify-center m-auto bg-green-900 text-white font-semibold text-[20px] py-2 px-5">
         Menu
       </button>
+      {IsOpen && (
+        <ul>
+            <li>Mubby</li>
+            <li>Shade</li>
+            <li>Ade</li>
+        </ul>
+      )}
     </div>
   );
 };
