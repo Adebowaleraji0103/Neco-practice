@@ -1,13 +1,15 @@
-const Navbar = () => {
-    return (  
-       <header>
-        <div>
-            Logo
-        </div>
+import { MdMenu } from "react-icons/md";
 
-        
-       </header>
-    );
-}
- 
+const Navbar = () => {
+  return (
+    <header>
+      <div>Logo</div>
+
+      <div>
+        <MdMenu />
+      </div>
+    </header>
+  );
+};
+
 export default Navbar;
