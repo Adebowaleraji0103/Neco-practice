@@ -1,6 +1,6 @@
-import Button from "./props practice/Button";
-import ProductCard from "./props practice/ProductCard";
-import Student from "./props practice/Studen";
+import Button from "./Button";
+import ProductCard from "./ProductCard";
+import Student from "./Studen";
 
 function MainPropPractice() {
   return (

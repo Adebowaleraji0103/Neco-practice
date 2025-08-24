@@ -1,9 +1,11 @@
-import Main from "./props practice/MainPropPractice";
+import FirstDropDown from "./component/FirstDropDown";
+import MainPropPractice from "./props practice/MainPropPractice";
 
 function App() {
   return (
     <div>
-      {/* <Main /> */}
+      <MainPropPractice />
+      <FirstDropDown/>
     </div>
   );
 }
