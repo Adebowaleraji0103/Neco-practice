@@ -15,7 +15,7 @@ const FirstDropDown = ({ label, options }) => {
   }, []);
 
   return (
-    <div ref={dropdownRef} className="relative flex justify-center">
+    <div ref={dropdownRef} className="relative flex flex-row justify-center">
       {/* Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
