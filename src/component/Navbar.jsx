@@ -1,8 +1,12 @@
 const Navbar = () => {
     return (  
+       <header>
         <div>
-            
+            Logo
         </div>
+
+        
+       </header>
     );
 }
  
