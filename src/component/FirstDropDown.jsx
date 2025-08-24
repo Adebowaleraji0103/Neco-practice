@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const FirstDropDown = () => {
-  const [setIsOpen, IsOpen] = useState(false);
+  const [IsOpen, setIsOpen] = useState(false);
   return (
     <div>
       <button  
