@@ -1,10 +1,10 @@
-import Button from "./props practice/Button";
-import ProductCard from "./props practice/ProductCard";
-import Student from "./props practice/Studen";
+import Main from "./props practice/Main";
 
 function App() {
   return (
-    
+    <div>
+      <Main />
+    </div>
   );
 }
 export default App;
