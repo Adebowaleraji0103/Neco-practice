@@ -16,11 +16,8 @@ const Navbar = () => {
         <li>Home</li>
         <div className="flex">
           <li>About Neco</li>
-          {DropdownLogo.map((Dropdown, index) => {
-            <div key={index}>
-              
-            </div>;
-          })}
+         
+        
         </div>
         <li>Our Exam</li>
         <li>Neco Result</li>
