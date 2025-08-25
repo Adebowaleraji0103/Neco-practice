@@ -1,7 +1,7 @@
 import { MdMenu } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-const DropdownLogo = [<RiArrowDropDownLine />];
+const DropdownLogo =  [ <RiArrowDropDownLine className="text-2xl"/>];
 
 const Navbar = () => {
   return (
@@ -16,7 +16,9 @@ const Navbar = () => {
         <li>Home</li>
         <div className="flex">
           <li>About Neco</li>
-          <RiArrowDropDownLine />
+          {DropdownLogo.map((DropdownLogo, index) => {
+            <p key={index}></p>;
+          })}
         </div>
         <li>Our Exam</li>
         <li>Neco Result</li>
