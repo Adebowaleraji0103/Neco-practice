@@ -1,6 +1,8 @@
 import { MdMenu } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
+const DropdownLogo = [<RiArrowDropDownLine />];
+
 const Navbar = () => {
   return (
     <header className="flex justify-between py-3 px-6 shadow-2xl">
@@ -12,7 +14,7 @@ const Navbar = () => {
 
       <ul className=" hidden md:flex gap-8">
         <li>Home</li>
-        <div className="flex"> 
+        <div className="flex">
           <li>About Neco</li>
           <RiArrowDropDownLine />
         </div>
