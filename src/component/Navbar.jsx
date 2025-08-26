@@ -10,7 +10,6 @@ const Navlink = [
   { label: "Payment", href: "payment" },
   { label: "FAQ", href: "faq" },
   { label: "Support", href: "support" },
-  { label: "Login", href: "login" },
 ];
 
 const Navbar = () => {
@@ -22,11 +21,11 @@ const Navbar = () => {
         <MdMenu className="md:hidden" />
       </div>
 
-     <div>
+     <div className="bg-red-700">
       {Navlink.map((nav,index)=>{
         <div key={index}>
           {nav.label}
-          {nav.href}
+          {nav=href}
 
         </div>
       })}
