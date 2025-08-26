@@ -23,9 +23,11 @@ const Navbar = () => {
       </div>
 
      <div>
-      {Navlink.map(()=>{
-        <div>
-          
+      {Navlink.map((nav,index)=>{
+        <div key={index}>
+          {nav.label}
+          {nav.href}
+
         </div>
       })}
      </div>
