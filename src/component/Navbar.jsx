@@ -10,7 +10,7 @@ const Navlink = [
   { label: "Payment", href: "payment" },
   { label: "FAQ", href: "faq" },
   { label: "Support", href: "support" },
-  { label: "Support", href: "support" },
+  { label: "Login", href: "login" },
 ];
 
 const Navbar = () => {
