@@ -3,6 +3,10 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 const DropdownLogo =  [ <RiArrowDropDownLine className="text-2xl"/>];
 
+const Navlink = [
+  {href :"", label : "Home"}
+]
+
 const Navbar = () => {
   return (
     <header className="flex justify-between py-3 px-6 shadow-2xl">
