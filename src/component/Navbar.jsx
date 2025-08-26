@@ -24,7 +24,9 @@ const Navbar = () => {
 
      <div>
       {Navlink.map(()=>{
-        
+        <div>
+          
+        </div>
       })}
      </div>
 
