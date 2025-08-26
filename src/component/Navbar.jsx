@@ -4,8 +4,8 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 const DropdownLogo = [<RiArrowDropDownLine className="text-2xl" />];
 
 const Navlink = [
-  { label: "Home", href: "" },
-  { label: "Home", href: "" },
+  { label: "Home", href: "home" },
+  { label: "About Us", href: "#about" },
   { label: "Home", href: "" },
   { label: "Home", href: "" },
   { label: "Home", href: "" },
