@@ -6,9 +6,9 @@ const DropdownLogo = [<RiArrowDropDownLine className="text-2xl" />];
 const Navlink = [
   { label: "Home", href: "" },
   { label: "Home", href: "" },
-  { label: "Home", href: "" }
+  { label: "Home", href: "" },
 
-
+  { label: "Home", href: "" },
 ];
 
 const Navbar = () => {
