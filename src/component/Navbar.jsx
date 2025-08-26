@@ -22,18 +22,9 @@ const Navbar = () => {
         <MdMenu className="md:hidden" />
       </div>
 
-      <ul className=" hidden md:flex gap-8">
-        <li>Home</li>
-        <div className="flex">
-          <li>About Neco</li>
-        </div>
-        <li>Our Exam</li>
-        <li>Neco Result</li>
-        <li>Payment</li>
-        <li>Operators</li>
-        <li>FAQ</li>
-        <li>Support</li>
-      </ul>
+     <div>
+      
+     </div>
 
       <button>Login</button>
     </header>
