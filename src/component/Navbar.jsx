@@ -1,7 +1,7 @@
 import { MdMenu } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-const DropdownLogo = [<RiArrowDropDownLine className="text-2xl" />];
+// const DropdownLogo = [<RiArrowDropDownLine className="text-2xl" />];
 
 const Navlink = [
   { label: "Home", href: "home" },
@@ -21,12 +21,12 @@ const Navbar = () => {
         <MdMenu className="md:hidden" />
       </div>
 
-      <ul className="bg-red-700">
+      <ul className="bg-red-700 flex gap-6">
         {Navlink.map((nav, index) => {
-          <div key={index}>
+          <li key={index}>
             {nav.label}
             <a href={nav.href}></a>
-          </div>;
+          </li>;
         })}
       </ul>
 
