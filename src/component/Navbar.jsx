@@ -1,11 +1,9 @@
 import { MdMenu } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-const DropdownLogo =  [ <RiArrowDropDownLine className="text-2xl"/>];
+const DropdownLogo = [<RiArrowDropDownLine className="text-2xl" />];
 
-const Navlink = [
-  {href :"", label : "Home"}
-]
+const Navlink = [{ label: "Home", href: "" }];
 
 const Navbar = () => {
   return (
@@ -20,8 +18,6 @@ const Navbar = () => {
         <li>Home</li>
         <div className="flex">
           <li>About Neco</li>
-         
-        
         </div>
         <li>Our Exam</li>
         <li>Neco Result</li>
