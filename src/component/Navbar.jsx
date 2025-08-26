@@ -21,15 +21,14 @@ const Navbar = () => {
         <MdMenu className="md:hidden" />
       </div>
 
-     <div className="bg-red-700">
-      {Navlink.map((nav,index)=>{
-        <div key={index}>
-          {nav.label}
-          {nav=href}
-
-        </div>
-      })}
-     </div>
+      <ul className="bg-red-700">
+        {Navlink.map((nav, index) => {
+          <div key={index}>
+            {nav.label}
+            <a href={nav.href}></a>
+          </div>;
+        })}
+      </ul>
 
       <button>Login</button>
     </header>
