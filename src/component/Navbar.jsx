@@ -23,7 +23,9 @@ const Navbar = () => {
       </div>
 
      <div>
-      {}
+      {Navlink.map(()=>{
+        
+      })}
      </div>
 
       <button>Login</button>
