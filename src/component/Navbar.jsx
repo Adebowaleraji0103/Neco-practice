@@ -42,10 +42,10 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <div className="absolute top-20 right-0 bg-blue-900 flex justify-between w-full text-white">
-          <FaRegWindowClose className="w-[50%]" />
+        <div className="absolute top-0 right-0 bg-blue-900 flex justify-between w-full text-white">
+          <FaRegWindowClose className="text-[20px] w-[50%] bg-transparent" />
 
-          <ul className="flex flex-col gap-7 ">
+          <ul className="flex flex-col gap-7 w-[50%]">
             {Navlink.map((nav, index) => (
               <li key={index}>
                 <a href={nav.href}>{nav.label}</a>
