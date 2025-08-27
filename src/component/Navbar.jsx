@@ -15,7 +15,7 @@ const Navbar = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
+    <header className="relative flex justify-between items-center py-4 px-5 font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
       <h1 className="text-2xl">Logo</h1>
 
       <div>
