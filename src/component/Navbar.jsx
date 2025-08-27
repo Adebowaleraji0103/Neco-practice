@@ -5,11 +5,11 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Navlink = [
   { label: "Home", href: "home" },
-  // { label: "About Us", href: "#about" },
-  // { label: "Our Exam", href: "exam" },
-  // { label: "Payment", href: "payment" },
-  // { label: "FAQ", href: "faq" },
-  // { label: "Support", href: "support" },
+  { label: "About Us", href: "#about" },
+  { label: "Our Exam", href: "exam" },
+  { label: "Payment", href: "payment" },
+  { label: "FAQ", href: "faq" },
+  { label: "Support", href: "support" },
 ];
 
 const Navbar = () => {
@@ -22,10 +22,10 @@ const Navbar = () => {
       </div>
 
       <ul className="bg-red-700 flex gap-6">
-        {Navlink.map((nav, index) => {
+        {Navlink.map((Navlink, index) => {
           <li key={index}>
-            {nav.label}
-            <a href={nav.href}></a>
+            {Navlink.label}
+            <a href={Navlink.href}></a>
           </li>;
         })}
       </ul>
