@@ -14,7 +14,7 @@ const Navlink = [
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-600 shadow-lg md:px-[7rem]">
+    <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
       <h1 className="text-2xl">Logo</h1>
       
       <div>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <ul className="gap-10 hidden md:flex">
         {Navlink.map((nav, index) => (
           <li key={index}>
-            <a href={nav.href}>{nav.label}</a>
+            <a className="hover:text-gray-400" href={nav.href}>{nav.label}</a>
           </li>
         ))}
       </ul>
