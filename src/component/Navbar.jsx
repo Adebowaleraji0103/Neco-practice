@@ -25,7 +25,7 @@ const Navbar = () => {
         />
       </div>
 
-      <ul className="gap-10 hidden md:flex md:justify-center">
+      <ul className="gap-10 hidden flex-1 md:flex md:justify-center">
         {Navlink.map((nav, index) => (
           <li key={index}>
             <a className="hover:text-gray-400" href={nav.href}>
@@ -39,7 +39,7 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <div className="text-[14px] absolute top-0 right-0 bg-blue-300 flex justify-between w-full h-full text-white">
+        <div className="text-[14px] absolute top-0 right-0 bg-gray-400 flex justify-between w-full h-full text-white">
           <CgCloseR
             className="text-[30px] bg-transparent  ml-auto"
             onClick={() => setMenuIsOpen(false)}
