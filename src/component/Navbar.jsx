@@ -18,7 +18,8 @@ const Navbar = () => {
       <h1 className="text-2xl">Logo</h1>
       
       <div>
-        <MdMenu className="md:hidden text-3xl" />
+        <MdMenu 
+         className="md:hidden text-3xl" />
       </div>
 
     
