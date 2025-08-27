@@ -1,4 +1,5 @@
 import { MdMenu } from "react-icons/md";
+import { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 // const DropdownLogo = [<RiArrowDropDownLine className="text-2xl" />];
@@ -11,6 +12,7 @@ const Navlink = [
   { label: "FAQ", href: "faq" },
   { label: "Support", href: "support" },
 ];
+const [menuIsOpen, setMenuIsOpen] = useState;
 
 const Navbar = () => {
   return (
@@ -18,7 +20,7 @@ const Navbar = () => {
       <h1 className="text-2xl">Logo</h1>
       
       <div>
-        <MdMenu 
+        <MdMenu onClick={()=>setMenuIsOpen (!menuIsOpen)}
          className="md:hidden text-3xl" />
       </div>
 
@@ -34,6 +36,13 @@ const Navbar = () => {
       <button className="bg-[#2DC866] text-white py-4 px-5 rounded-[5px] hidden md:flex">
         Login
       </button>
+      {
+        menuIsOpen&&(
+          <ul>
+            
+          </ul>
+        )
+      }
       
     </header>
   );
