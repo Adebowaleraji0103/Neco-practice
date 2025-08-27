@@ -42,16 +42,19 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <div className="absolute top-0 right-0 bg-blue-900 flex justify-between w-full h-full text-white">
-          <FaRegWindowClose className="text-[30px]" />
+        <div className="text-[14px] absolute top-0 right-0 bg-blue-300 flex justify-between w-full h-full text-white">
+          <FaRegWindowClose className="text-[30px]" onClick={()=>setMenuIsOpen(false)}/>
 
-          <ul className="flex flex-col gap-7 w-[50%] bg-white h-full text-gray-700">
+          <div className="flex flex-col gap-10 w-[60%] px-3 pt-[3.5rem] text-black text-[25px] bg-white h-full">
+            <h1>Menu</h1>
+            <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
             {Navlink.map((nav, index) => (
               <li key={index}>
                 <a href={nav.href}>{nav.label}</a>
               </li>
             ))}
           </ul>
+          </div>
         </div>
       )}
     </header>
