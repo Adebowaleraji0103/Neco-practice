@@ -14,7 +14,7 @@ const Navlink = [
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between py-3 px-[6rem] shadow-2xl">
+    <header className="flex justify-evenly py-3 px-[6rem] shadow-2xl">
       <div>Logo</div>
 
       <div>
