@@ -1,5 +1,6 @@
 import { MdMenu } from "react-icons/md";
 import { useState } from "react";
+import { FaRegWindowClose } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 // const DropdownLogo = [<RiArrowDropDownLine className="text-2xl" />];
@@ -14,7 +15,6 @@ const Navlink = [
 ];
 
 const Navbar = () => {
-
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
 
       <div>
         <MdMenu
-          onClick={()=> setMenuIsOpen(!menuIsOpen)}
+          onClick={() => setMenuIsOpen(!menuIsOpen)}
           className="md:hidden text-3xl relative"
         />
       </div>
@@ -42,13 +42,17 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <ul className="flex flex-col gap-7 absolute top-20 right-0 bg-blue-900 w-[50%] text-white">
-          {Navlink.map((nav, index) => (
-            <li key={index}>
-              <a href={nav.href}>{nav.label}</a>
-            </li>
-          ))}
-        </ul>
+        <div className="absolute top-20 right-0 bg-blue-900 flex justify-between w-full text-white">
+          <FaRegWindowClose className="w-[50%]" />
+
+          <ul className="flex flex-col gap-7 ">
+            {Navlink.map((nav, index) => (
+              <li key={index}>
+                <a href={nav.href}>{nav.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
     </header>
   );
