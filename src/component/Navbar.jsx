@@ -16,7 +16,7 @@ const Navlink = [
 const Navbar = () => {
 
   const [menuIsOpen, setMenuIsOpen] = useState(false);
-  
+
   return (
     <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
       <h1 className="text-2xl">Logo</h1>
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div>
         <MdMenu
           onClick={()=> setMenuIsOpen(!menuIsOpen)}
-          className="md:hidden text-3xl"
+          className="md:hidden text-3xl relative"
         />
       </div>
 
@@ -42,7 +42,7 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <ul className="bg-red flex flex-col gap-7">
+        <ul className="flex flex-col gap-7 absolute top-20 right-0 bg-blue-900 w-[50%] text-white">
           {Navlink.map((nav, index) => (
             <li key={index}>
               <a href={nav.href}>{nav.label}</a>
