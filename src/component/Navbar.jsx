@@ -28,7 +28,7 @@ const Navbar = () => {
             {nav.label}
 
             </a>
-          </li>;
+          </li>
         ))}
       </ul>
 
