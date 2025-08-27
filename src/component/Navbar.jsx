@@ -32,7 +32,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <button className="bg-[#2DC866] py-4 px-2 rounded-[5px]">Login</button>
+      <button className="bg-[#2DC866] text-white py-4 px-5 rounded-[5px]">Login</button>
     </header>
   );
 };
