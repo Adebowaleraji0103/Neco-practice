@@ -14,14 +14,14 @@ const Navlink = [
 
 const Navbar = () => {
   return (
-    <header className="flex justify-evenly py-3 px-[6rem] shadow-2xl">
+    <header className="flex justify-between py-5 px-[6rem] font-semibold text-gray-600 shadow-2xl">
       <div>Logo</div>
 
       <div>
         <MdMenu className="md:hidden" />
       </div>
 
-      <ul className="bg-red-700 flex gap-6">
+      <ul className="flex gap-10">
         {Navlink.map((nav, index) => (
           <li key={index}>
             <a href={nav.href}>
