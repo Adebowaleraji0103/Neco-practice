@@ -14,7 +14,7 @@ const Navlink = [
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-600 shadow-lg md:px-[6rem]">
+    <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-600 shadow-lg md:px-[7rem]">
       <h1 className="text-2xl">Logo</h1>
       
       <div>
