@@ -22,12 +22,14 @@ const Navbar = () => {
       </div>
 
       <ul className="bg-red-700 flex gap-6">
-        {Navlink.map((nav, index) => {
+        {Navlink.map((nav, index) => (
           <li key={index}>
+            <a href={nav.href}>
             {nav.label}
-            <a href={nav.href}></a>
+
+            </a>
           </li>;
-        })}
+        ))}
       </ul>
 
       <button>Login</button>
