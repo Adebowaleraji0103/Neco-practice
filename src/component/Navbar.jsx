@@ -12,7 +12,7 @@ const Navlink = [
   { label: "FAQ", href: "faq" },
   { label: "Support", href: "support" },
 ];
-const [menuIsOpen, setMenuIsOpen] = useState;
+const [menuIsOpen, setMenuIsOpen] = useState(false);
 
 const Navbar = () => {
   return (
@@ -39,8 +39,8 @@ const Navbar = () => {
       <button className="bg-[#2DC866] text-white py-4 px-5 rounded-[5px] hidden md:flex">
         Login
       </button>
-      {menuIsOpen && (
-        <ul>
+      {menuIsOpen &&(
+        <ul className="bg-red flex flex-col gap-7">
           {Navlink.map((nav, index) => (
             <li key={index}>
               <a href={nav.href}>{nav.label}</a>
