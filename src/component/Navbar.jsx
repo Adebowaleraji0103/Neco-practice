@@ -39,7 +39,7 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <div className="text-[14px] absolute top-0 right-0 flex justify-between w-full h-full text-white">
+        <div className="text-[14px] absolute top-0 right-0 flex flex-col gap-28 justify-between w-full h-full text-white">
           <CgCloseR
             className="text-[30px] text-red-500 bg-red  h-full ml-auto"
             onClick={() => setMenuIsOpen(false)}
