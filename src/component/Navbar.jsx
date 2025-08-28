@@ -39,13 +39,13 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <div className="text-[14px] absolute top-0 right-0 bg-gray-400 flex justify-between w-full h-full text-white">
+        <div className="text-[14px] absolute top-0 right-0 bg-red-500 flex justify-between w-full h-full text-white">
           <CgCloseR
-            className="text-[30px] bg-transparent  ml-auto"
+            className="text-[30px] bg-red  h-full ml-auto"
             onClick={() => setMenuIsOpen(false)}
           />
 
-          <div className="flex flex-col gap-10 w-[60%] px-3 pt-[3.5rem] text-black text-[25px] bg-white h-full">
+          <div className="flex flex-col gap-10 w-[60%] px-3 pt-[3.5rem] text-black text-[25px] bg-blue-500 h-full">
             <h1>Menu</h1>
             <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
               {Navlink.map((nav, index) => (
