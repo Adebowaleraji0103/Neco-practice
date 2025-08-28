@@ -45,7 +45,7 @@ const Navbar = () => {
             onClick={() => setMenuIsOpen(false)}
           />
 
-          <div className="flex flex-col gap-10 w-[60%] px-3 pt-[3.5rem] text-black text-[25px] bg-blue-500 h-full">
+          <div className="flex flex-col gap-10 w-[60%] px-3 pt-[3.5rem] text-black text-[25px] ">
             <h1>Menu</h1>
             <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
               {Navlink.map((nav, index) => (
