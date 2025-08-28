@@ -15,7 +15,7 @@ const Navbar = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
-    <header className="relative flex justify-between items-center py-4 px-5 font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
+    <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
       <h1 className="text-2xl">Logo</h1>
 
       <div>
@@ -25,7 +25,7 @@ const Navbar = () => {
         />
       </div>
 
-      <ul className="gap-10 hidden flex-1 md:flex md:justify-center">
+      <ul className="relative gap-10 hidden flex-1 md:flex md:justify-center">
         {Navlink.map((nav, index) => (
           <li key={index}>
             <a className="hover:text-gray-400" href={nav.href}>
@@ -39,13 +39,13 @@ const Navbar = () => {
         Login
       </button>
       {menuIsOpen && (
-        <div className="text-[14px] absolute top-0 right-0 flex justify-between w-full h-full text-white">
+        <div className="absolute top-0 flex justify-between  w-full h-full px-10 text-[14px] bg-red-500  text-white">
           <CgCloseR
-            className="text-[30px] text-red-500 bg-red  h-full ml-auto"
+            className="text-[30px] w-[50%] h-full bg-green-300"
             onClick={() => setMenuIsOpen(false)}
           />
 
-          <div className="flex flex-col gap-10 w-[60%] px-3 pt-[3.5rem] text-black text-[25px] ">
+          <div className="flex flex-col gap-10  px-3 pt-[3.5rem] text-black text-[25px] ">
             <h1>Menu</h1>
             <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
               {Navlink.map((nav, index) => (
