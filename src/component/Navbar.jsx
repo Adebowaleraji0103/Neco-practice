@@ -40,7 +40,7 @@ const Navbar = () => {
       </button>
       {menuIsOpen && (
         <div className="absolute top-0 flex justify-between  w-full h-full text-[14px] bg-red-500  text-white">
-         <div className=" w-[35%] h-full bg-green-300 text-[30px] ml-auto">
+         <div className=" w-[35%] h-full bg-green-300 text-[30px] flex justify-end px-3 py-15">
            <CgCloseR onClick={() => setMenuIsOpen(false)}/>
          </div>
 
