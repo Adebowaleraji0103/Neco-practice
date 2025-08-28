@@ -40,10 +40,12 @@ const Navbar = () => {
       </button>
       {menuIsOpen && (
         <div className="absolute top-0 flex justify-between  w-full h-full px-10 text-[14px] bg-red-500  text-white">
-          <CgCloseR
-            className="text-[30px] w-[50%] h-full bg-green-300"
+         <div className=" w-[50%] h-full bg-green-300">
+           <CgCloseR
+            className="text-[30px]"
             onClick={() => setMenuIsOpen(false)}
           />
+         </div>
 
           <div className="flex flex-col gap-10  px-3 pt-[3.5rem] text-black text-[25px] ">
             <h1>Menu</h1>
