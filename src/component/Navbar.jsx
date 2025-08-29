@@ -15,7 +15,7 @@ const Navbar = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center py-4 px-5 font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
+    <header className="flex justify-between items-center py-4  font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
       <h1 className="text-2xl">Logo</h1>
 
       <div>
@@ -44,7 +44,7 @@ const Navbar = () => {
            <CgCloseR onClick={() => setMenuIsOpen(false)}/>
          </div>
 
-          <div className="flex flex-col gap-10 w-[65%] bg-green-900 px-3 pt-[3.5rem] text-white text-[25px] ">
+          <div className="flex flex-col gap-10 w-[65%] bg-white px-3 pt-[3.5rem] text-black text-[25px] ">
             <h1>Menu</h1>
             <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
               {Navlink.map((nav, index) => (
