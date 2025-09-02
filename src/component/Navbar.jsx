@@ -53,7 +53,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <button className="bg-[#2DC866] text-white   w-fit py-1 px-2 rounded-[5px] flex">
+            <button className="bg-[#2DC866] text-white text-[16px] w-fit py-1 px-2 rounded-[5px] flex">
               Login
             </button>
           </div>
