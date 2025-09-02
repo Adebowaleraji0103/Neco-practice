@@ -16,8 +16,7 @@ const Navbar = () => {
 
   return (
     <header className="flex justify-between items-center py-4 px-6  font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
-      <div>
-        <h1 className="text-2xl">Logo</h1>
+      <h1 className="text-2xl">Logo</h1>
 
       <div>
         <MdMenu
@@ -57,7 +56,6 @@ const Navbar = () => {
           </div>
         </div>
       )}
-      </div>
     </header>
   );
 };
