@@ -40,7 +40,7 @@ const Navbar = () => {
       </button>
       {menuIsOpen && (
         <div className="absolute top-0 left-0 flex justify-between  w-full h-full text-[14px] bg-red-500  text-white md:hidden">
-          <div className=" w-[35%] h-full bg-gray-500 text-[30px] flex justify-end px-3 py-15">
+          <div className=" w-[35%] h-full bg-[#2DC866] text-[30px] flex justify-end px-3 py-15">
             <CgCloseR onClick={() => setMenuIsOpen(false)} />
           </div>
 
@@ -52,10 +52,10 @@ const Navbar = () => {
                   <a href={nav.href}>{nav.label}</a>
                 </li>
               ))}
-              <button className="bg-[#2DC866] text-white py-4 px-5 rounded-[5px] hidden md:flex">
-                Login
-              </button>
             </ul>
+            <button className="bg-[#2DC866] text-white   w-fit py-1 px-2 rounded-[5px] flex">
+              Login
+            </button>
           </div>
         </div>
       )}
