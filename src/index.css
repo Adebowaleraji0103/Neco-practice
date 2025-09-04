@@ -1,13 +1,16 @@
 @import "tailwindcss";
 
 h1{
-    color: black;
+    color: #1E293B;
 }
 p{
-    color: rgb(83, 84, 85);
+     color: #6B7280;
+     font-size: 17px;
 }
 
 .color{
     color: #1E293B;
     color: #F59E0B;
+    color: #6B7280;
+    color: #2563EB;
 }
