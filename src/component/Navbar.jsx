@@ -1,6 +1,7 @@
 import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import { CgCloseR } from "react-icons/cg";
+import Button from "./Button";
 
 const Navlink = [
   { label: "Home", href: "home" },
@@ -35,9 +36,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <button className="bg-[#2DC866] text-white py-4 px-5 rounded-[5px] hidden md:flex">
-        Login
-      </button>
+      <Button />
       {menuIsOpen && (
         <div className="absolute top-0 left-0 flex justify-between  w-full h-full text-[14px] bg-red-500  text-white md:hidden">
           <div className=" w-[35%] h-full bg-[#2DC866] text-[30px] flex justify-end px-3 py-15">
