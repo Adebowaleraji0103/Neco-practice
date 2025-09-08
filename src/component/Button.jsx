@@ -1,6 +1,5 @@
-import { Swiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import { SwiperSlide } from "swiper/react";
 
 const Button = ({text}) => {
   return (
