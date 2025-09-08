@@ -4,7 +4,9 @@ import { Autoplay } from "swiper/modules";
 function ImageSlider() {
     return(
         <div>
-           <Swiper></Swiper>
+           <Swiper>
+            
+           </Swiper>
         </div>
     )
 }
