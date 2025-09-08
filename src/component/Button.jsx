@@ -1,4 +1,5 @@
 import { Swiper } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 
 const Button = ({text}) => {
   return (
