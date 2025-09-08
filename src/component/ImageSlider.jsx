@@ -3,3 +3,4 @@ function ImageSlider() {
         <div></div>
     )
 }
+export default ImageSlider;
