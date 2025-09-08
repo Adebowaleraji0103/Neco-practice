@@ -3,7 +3,9 @@ import { Autoplay } from "swiper/modules";
 
 function ImageSlider() {
     return(
-        <div></div>
+        <div>
+           <Swiper></Swiper>
+        </div>
     )
 }
 export default ImageSlider;
