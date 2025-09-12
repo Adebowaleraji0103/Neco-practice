@@ -26,7 +26,6 @@ function ImageSlider() {
         <SwiperSlide>
           <img src="slider (5).png" alt="slider" />
         </SwiperSlide>
-        ...
       </Swiper>
     </div>
   );
