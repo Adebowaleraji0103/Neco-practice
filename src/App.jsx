@@ -5,10 +5,9 @@ import ImageSlider from "./component/ImageSlider";
 function App() {
   return (
     <div>
-      <Navbar/>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
-      {/* <ImageSlider /> */}
+      <Navbar />
+      <Hero />
+      <ImageSlider />
     </div>
   );
 }
