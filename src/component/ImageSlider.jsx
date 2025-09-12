@@ -3,7 +3,7 @@ import { Autoplay } from "swiper/modules";
 
 function ImageSlider() {
   return (
-    <div className="flex">
+    <div className="">
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
