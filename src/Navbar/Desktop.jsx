@@ -1,3 +1,4 @@
+import Button from "../component/Button";
 
 const Navlink = [
   { label: "Home", href: "home" },

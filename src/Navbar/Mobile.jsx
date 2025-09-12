@@ -2,6 +2,16 @@ import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import { CgCloseR } from "react-icons/cg";
 
+
+const Navlink = [
+  { label: "Home", href: "home" },
+  { label: "About Us", href: "#about" },
+  { label: "Our Exam", href: "exam" },
+  { label: "Payment", href: "payment" },
+  { label: "FAQ", href: "faq" },
+  { label: "Support", href: "support" },
+];
+
 const Mobile = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
