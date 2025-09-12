@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <ImageSlider />
+      {/* <ImageSlider /> */}
     </div>
   );
 }
