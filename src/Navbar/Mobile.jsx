@@ -1,4 +1,10 @@
+import { MdMenu } from "react-icons/md";
+import { useState } from "react";
+import { CgCloseR } from "react-icons/cg";
+
 const Mobile = () => {
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
+
   return (
     <div>
       <MdMenu
