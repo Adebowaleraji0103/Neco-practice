@@ -19,7 +19,6 @@ const Navbar = () => {
     <header className="flex justify-between items-center py-4 px-6  font-semibold text-gray-700 shadow-lg md:px-[7rem] md:py-3">
       <h1 className="text-2xl">Logo</h1>
 
-
       <ul className="relative gap-10 hidden flex-1 md:flex md:justify-center">
         {Navlink.map((nav, index) => (
           <li key={index}>
@@ -31,6 +30,10 @@ const Navbar = () => {
       </ul>
 
       <Button />
+      <MdMenu
+        onClick={() => setMenuIsOpen(!menuIsOpen)}
+        className="md:hidden text-3xl relative"
+      />
       {menuIsOpen && (
         <div className="absolute top-0 left-0 flex justify-between  w-full h-full text-[14px] bg-red-500  text-white md:hidden">
           <div className=" w-[35%] h-full bg-[#2DC866] text-[30px] flex justify-end px-3 py-15">
