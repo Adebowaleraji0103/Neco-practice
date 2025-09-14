@@ -22,7 +22,7 @@ const Mobile = () => {
         className="md:hidden text-3xl relative"
       />
       {menuIsOpen && (
-        <div className="absolute z-50 top-0 left-0 flex justify-between  w-full h-full text-[14px] bg-[#2DC866] text-white md:hidden">
+        <div className="z-50 top-0 left-0 flex justify-between  w-full h-full text-[14px] fixed bg-black bg-opacity-50 inset-0 text-white md:hidden">
           <div className=" w-[35%] h-full text-[30px] flex justify-end px-3 py-15">
             <CgCloseR onClick={() => setMenuIsOpen(false)} />
           </div>
