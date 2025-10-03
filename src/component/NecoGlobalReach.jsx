@@ -1,7 +1,7 @@
 const NecoGlobalReach = () => {
     return ( 
-        <div>
-            <h1>Neco Global Reach</h1>
+        <div className="bg-[#2DC866]">
+            <h2>Neco Global Reach</h2>
         </div>
      );
 }
