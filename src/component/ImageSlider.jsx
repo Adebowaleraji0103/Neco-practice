@@ -3,7 +3,7 @@ import { Autoplay } from "swiper/modules";
 
 function ImageSlider() {
   return (
-    <div className="">
+    <div className="py-10">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={2}
