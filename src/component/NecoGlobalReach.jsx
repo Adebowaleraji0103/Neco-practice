@@ -1,7 +1,7 @@
 const NecoGlobalReach = () => {
   const country = [
     {
-      short: "AB",
+      short: "BR",
       name: "Benin Republic",
     },
     // {
@@ -33,10 +33,10 @@ const NecoGlobalReach = () => {
         </span>
       </div>
       {country.map((card, index) => (
-        <div className="flex">
-          <ul key={index} className="bg-[#599A5E] flex flex-col gap-11">
-            <li>{card.short}</li>
-            <li>{card.name}</li>
+        <div className="flex px-[1rem] ">
+          <ul key={index} className="bg-[#599A5E] flex flex-col gap-11 w-full rounded-[5px] font-bold">
+            <li className="text-[3rem] text-black">{card.short}</li>
+            <li className="text-[1.4rem] ">{card.name}</li>
           </ul>
         </div>
       ))}
