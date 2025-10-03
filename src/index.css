@@ -1,19 +1,23 @@
 @import "tailwindcss";
-@import 'swiper/css';
+@import "swiper/css";
 
-h1{
-    color: #1E293B;
+h1 {
+  color: #1e293b;
 }
 
-p{
-     color: #6B7280;
-     font-size: 17px;
+p {
+  color: #6b7280;
+  font-size: 17px;
 }
 
-.color{
-    color: #1E293B;
-    color: #F59E0B;
-    color: #6B7280;
-    color: #2563EB;
-    color: #2DC866;
+.padding {
+    padding: 1rem 1.5rem;
+}
+
+.color {
+  color: #1e293b;
+  color: #f59e0b;
+  color: #6b7280;
+  color: #2563eb;
+  color: #2dc866;
 }
