@@ -19,7 +19,7 @@ const Mobile = () => {
     <div>
       <MdMenu
         onClick={() => setMenuIsOpen(!menuIsOpen)}
-        className="md:hidden text-3xl relative bg-[#328538]"
+        className="md:hidden text-3xl relative text-[#2DC866]"
       />
       {menuIsOpen && (
         <div className="z-50 top-0 left-0 flex justify-between  w-full h-full text-[14px] fixed bg-[#328538] inset-0 text-white md:hidden">
