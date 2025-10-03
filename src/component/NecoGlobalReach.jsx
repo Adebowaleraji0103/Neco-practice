@@ -44,18 +44,20 @@ const NecoGlobalReach = () => {
         autoplay={{ delay: 2000, disableOnInteraction: false }}
       >
         <SwiperSlide className=""> */}
-          {country.map((card, index) => (
-            <div className="flex gap-[2rem]">
-              <ul
-                key={index}
-                className="bg-[#599A5E] flex flex-col gap-5 w-full rounded-[10px] font-semibold text-center py-[6rem]"
-              >
-                <li className="text-[3rem] text-black">{card.short}</li>
-                <li className="text-[1.4rem] ">{card.name}</li>
-              </ul>
-            </div>
-          ))}
-        {/* </SwiperSlide>
+      <div className="grid md:grid-cols-3 gap-10"> 
+        {country.map((card, index) => (
+          <div className="flex gap-[2rem]">
+            <ul
+              key={index}
+              className="bg-[#599A5E] flex flex-col gap-5 w-full rounded-[10px] font-semibold text-center py-[6rem]"
+            >
+              <li className="text-[3rem] text-black">{card.short}</li>
+              <li className="text-[1.4rem] ">{card.name}</li>
+            </ul>
+          </div>
+        ))}
+      </div>
+      {/* </SwiperSlide>
       </Swiper> */}
     </div>
   );
