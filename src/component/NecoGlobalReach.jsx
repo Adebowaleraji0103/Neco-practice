@@ -1,25 +1,28 @@
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay } from "swiper/modules";
+
 const NecoGlobalReach = () => {
   const country = [
     {
       short: "BR",
       name: "Benin Republic",
     },
-    // {
-    //   short: "AB",
-    //   name: " Republic",
-    // },
-    // {
-    //   short: "AB",
-    //   name: "Benin ",
-    // },
-    // {
-    //   short: "AB",
-    //   name: "Benin Republic",
-    // },
-    // {
-    //   short: "AB",
-    //   name: " Republic",
-    // },
+    {
+      short: "AB",
+      name: " Republic",
+    },
+    {
+      short: "AB",
+      name: "Benin ",
+    },
+    {
+      short: "AB",
+      name: "Benin Republic",
+    },
+    {
+      short: "AB",
+      name: " Republic",
+    },
   ];
   return (
     <div className="mb-90 bg-[#36893C] text-white flex flex-col gap-[2rem] padding">
@@ -32,14 +35,28 @@ const NecoGlobalReach = () => {
           following foreign countries
         </span>
       </div>
-      {country.map((card, index) => (
-        <div className="flex  ">
-          <ul key={index} className="bg-[#599A5E] flex flex-col gap-5 w-full rounded-[10px] font-semibold text-center py-[6rem]">
-            <li className="text-[3rem] text-black">{card.short}</li>
-            <li className="text-[1.4rem] ">{card.name}</li>
-          </ul>
-        </div>
-      ))}
+
+      {/* <Swiper
+        modules={[Autoplay]}
+        spaceBetween={2}
+        slidesPerView={1}
+        loop={true}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
+      >
+        <SwiperSlide className=""> */}
+          {country.map((card, index) => (
+            <div className="flex gap-[2rem]">
+              <ul
+                key={index}
+                className="bg-[#599A5E] flex flex-col gap-5 w-full rounded-[10px] font-semibold text-center py-[6rem]"
+              >
+                <li className="text-[3rem] text-black">{card.short}</li>
+                <li className="text-[1.4rem] ">{card.name}</li>
+              </ul>
+            </div>
+          ))}
+        {/* </SwiperSlide>
+      </Swiper> */}
     </div>
   );
 };
