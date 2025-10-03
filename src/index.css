@@ -21,3 +21,9 @@ p {
   color: #2563eb;
   color: #2dc866;
 }
+
+@media (min-width : 1000px) {
+    .padding {
+        padding: 1.5rem 7rem;
+    }
+}
