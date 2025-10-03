@@ -1,5 +1,5 @@
 const NecoGlobalReach = () => {
-  country = [
+  const country = [
     {
       short: "AB",
       name: "Benin Republic",
