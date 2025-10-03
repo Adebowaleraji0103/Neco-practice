@@ -22,8 +22,8 @@ const NecoGlobalReach = () => {
     },
   ];
   return (
-    <div>
-      <div className="mb-90 text-xl bg-[#36893C] text-white text-center flex flex-col gap-4 padding md:text-[27px] ">
+    <div className="mb-90 bg-[#36893C] text-white">
+      <div className=" text-xl text-center flex flex-col gap-4 padding md:text-[27px] ">
         <h2 className="font-semibold text-[2.3rem] md:text-[3.5rem]">
           NECO Global Reach
         </h2>
@@ -32,13 +32,13 @@ const NecoGlobalReach = () => {
           following foreign countries
         </span>
       </div>
-
       {country.map((card, index) => (
-        <div key={index}>
+        <div key={index} className="bg-[#599A5E]">
           {card.short}
           {card.name}
         </div>
-      ))};
+      ))}
+      ;
     </div>
   );
 };
