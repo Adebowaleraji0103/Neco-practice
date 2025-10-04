@@ -13,6 +13,9 @@ p {
 .padding {
     padding: 1rem 1.5rem;
 }
+.background {
+background: linear-gradient(135deg, #3E7D44, #6BAE75);;
+} 
 
 .color {
   color: #1e293b;
