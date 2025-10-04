@@ -19,7 +19,7 @@ const NecoGlobalReach = () => {
   ];
 
   return (
-    <main className="mb-90 bg-[#36893C] text-white flex flex-col gap-[4rem] px-[1rem] py-[4rem]">
+    <main className="bg-[#36893C] text-white flex flex-col gap-[4rem] px-[1rem] py-[4rem]">
       <div className="text-xl text-center flex flex-col gap-4 padding md:text-[27px] padding">
         <h2 className="font-semibold text-[2.3rem] md:text-[3.5rem]">
           NECO Global Reach
