@@ -1,4 +1,3 @@
-
 // };
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,11 +12,15 @@ const NecoGlobalReach = () => {
     { short: "AB", name: "Benin" },
     { short: "AB", name: "Benin Republic" },
     { short: "AB", name: "Republic" },
+    { short: "AB", name: "Republic" },
+    { short: "AB", name: "Benin" },
+    { short: "AB", name: "Benin Republic" },
+    { short: "AB", name: "Republic" },
   ];
 
   return (
-    <div className="mb-90 bg-[#36893C] text-white flex flex-col gap-[2rem] padding">
-      <div className="text-xl text-center flex flex-col gap-4 padding md:text-[27px]">
+    <div className="mb-90 bg-[#36893C] text-white flex flex-col gap-[2rem] px-[1rem]">
+      <div className="text-xl text-center flex flex-col gap-4 padding md:text-[27px] padding">
         <h2 className="font-semibold text-[2.3rem] md:text-[3.5rem]">
           NECO Global Reach
         </h2>
@@ -27,35 +30,34 @@ const NecoGlobalReach = () => {
         </span>
       </div>
 
-     <Swiper
-  modules={[Autoplay]}
-  grabCursor={true}
-  loop={true}
-  spaceBetween={100}
-  autoplay={{ delay: 2000, disableOnInteraction: false }}
-  className="w-full mx-auto"
-  breakpoints={{
-    640: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    1024: {
-      slidesPerView: 3,
-    },
-  }}
->
-  {country.map((card, index) => (
-    <SwiperSlide key={index}>
-      <div className="bg-[#599A5E] flex flex-col gap-5 w-full rounded-[10px] font-semibold text-center py-[6rem]">
-        <div className="text-[3rem] text-black">{card.short}</div>
-        <div className="text-[1.4rem]">{card.name}</div>
-      </div>
-    </SwiperSlide>
-  ))}
-</Swiper>
-
+      <Swiper
+        modules={[Autoplay]}
+        grabCursor={true}
+        loop={true}
+        spaceBetween={30}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        className="w-full mx-auto"
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 5,
+          },
+        }}
+      >
+        {country.map((card, index) => (
+          <SwiperSlide key={index}>
+            <div className="bg-[#599A5E] flex flex-col gap-5 w-full rounded-[10px] font-semibold text-center py-[6rem]">
+              <div className="text-[3rem] text-black">{card.short}</div>
+              <div className="text-[1.4rem]">{card.name}</div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 };
