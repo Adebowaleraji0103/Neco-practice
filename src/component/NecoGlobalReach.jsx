@@ -34,7 +34,7 @@ const NecoGlobalReach = () => {
         modules={[Autoplay]}
         grabCursor={true}
         loop={true}
-        spaceBetween={30}
+        spaceBetween={20}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         className="w-full mx-auto"
         breakpoints={{
