@@ -2,7 +2,7 @@
 // };
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectCards } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 // import "swiper/css/effect-cards";
 
@@ -28,12 +28,12 @@ const NecoGlobalReach = () => {
       </div>
 
      <Swiper
-  modules={[Autoplay, EffectCards]}
-  effect="cards"
+  modules={[Autoplay]}
   grabCursor={true}
   loop={true}
+  spaceBetween={100}
   autoplay={{ delay: 2000, disableOnInteraction: false }}
-  className="w-full max-w-[400px] mx-auto"
+  className="w-full mx-auto"
   breakpoints={{
     640: {
       slidesPerView: 1,
