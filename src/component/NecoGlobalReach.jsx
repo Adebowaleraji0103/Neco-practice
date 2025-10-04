@@ -50,8 +50,8 @@ const NecoGlobalReach = () => {
         }}
       >
         {country.map((card, index) => (
-          <SwiperSlide key={index}>
-            <div className="  bg-[#599A5E] flex flex-col gap-5 w-full rounded-[17px] font-semibold text-center py-[6rem] transform transition duration-300 hover:scale-110 hover:rounded-[17px]"> 
+          <SwiperSlide key={index} className="">
+            <div className="  bg-[#599A5E] flex flex-col gap-5 w-full rounded-[17px] font-semibold text-center py-[6rem] transform transition duration-300 hover:scale-85 hover:overflow-hidden origin-center  hover:rounded-[17px]"> 
               <div className="text-[3rem] text-black ">{card.short}</div>
               <div className="text-[1.4rem]">{card.name}</div>
             </div>
