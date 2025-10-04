@@ -19,7 +19,7 @@ const NecoGlobalReach = () => {
   ];
 
   return (
-    <div className="mb-90 bg-[#36893C] text-white flex flex-col gap-[2rem] px-[1rem] py-[4rem]">
+    <main className="mb-90 bg-[#36893C] text-white flex flex-col gap-[4rem] px-[1rem] py-[4rem]">
       <div className="text-xl text-center flex flex-col gap-4 padding md:text-[27px] padding">
         <h2 className="font-semibold text-[2.3rem] md:text-[3.5rem]">
           NECO Global Reach
@@ -30,7 +30,6 @@ const NecoGlobalReach = () => {
         </span>
       </div>
 
-      <div className="flex flex-col gap-14">
         <Swiper
           modules={[Autoplay]}
           grabCursor={true}
@@ -60,16 +59,19 @@ const NecoGlobalReach = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="bg-[#4A9E52] border rounded-[17px] py-[4rem]">
-          <h2>Expanding Educational Excellence:
-          <span>
-            NECO's commitment to quality education transcends borders, serving
-            Nigerian students across Africa and the Middle East with
-            internationally recognized certification standards.
-          </span></h2>
+        <div className=" md:px-[10rem]">
+          <div className="text-[24px] font-bold text-center bg-[#4A9E52] border rounded-[17px] py-[2rem] px-[2rem]">
+            <h2 >
+              Expanding Educational Excellence: 
+              <span className="font-normal">
+                NECO's commitment to quality education transcends borders,
+                serving Nigerian students across Africa and the Middle East with
+                internationally recognized certification standards.
+              </span>
+            </h2>
+          </div>
         </div>
-      </div>
-    </div>
+    </main>
   );
 };
 
