@@ -19,7 +19,7 @@ const NecoGlobalReach = () => {
   ];
 
   return (
-    <div className="mb-90 bg-[#36893C] text-white flex flex-col gap-[2rem] px-[1rem]">
+    <div className="mb-90 bg-[#36893C] text-white flex flex-col gap-[2rem] px-[1rem] ">
       <div className="text-xl text-center flex flex-col gap-4 padding md:text-[27px] padding">
         <h2 className="font-semibold text-[2.3rem] md:text-[3.5rem]">
           NECO Global Reach
@@ -34,7 +34,7 @@ const NecoGlobalReach = () => {
         modules={[Autoplay]}
         grabCursor={true}
         loop={true}
-        spaceBetween={20}
+        spaceBetween={25}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         className="w-full mx-auto"
         breakpoints={{
@@ -51,7 +51,7 @@ const NecoGlobalReach = () => {
       >
         {country.map((card, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-[#599A5E] flex flex-col gap-5 w-full rounded-[10px] font-semibold text-center py-[6rem]"> 
+            <div className="  bg-[#599A5E] flex flex-col gap-5 w-full rounded-[17px] font-semibold text-center py-[6rem]  transition-transform duration-300 hover:scale-110"> 
               <div className="text-[3rem] text-black ">{card.short}</div>
               <div className="text-[1.4rem]">{card.name}</div>
             </div>
