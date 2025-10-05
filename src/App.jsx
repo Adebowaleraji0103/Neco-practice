@@ -1,4 +1,5 @@
 import Navbar from "./Navbar/Navbar";
+import Footer from "./component/Footer";
 import Hero from "./component/Hero";
 import ImageSlider from "./component/ImageSlider";
 import NecoGlobalReach from "./component/NecoGlobalReach";
@@ -12,6 +13,7 @@ function App() {
       <ImageSlider />
       <NecoGlobalReach />
       <Verification />
+      <Footer/>
     </div>
   );
 }
