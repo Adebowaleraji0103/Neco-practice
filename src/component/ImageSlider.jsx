@@ -12,19 +12,19 @@ function ImageSlider() {
         autoplay={{ delay: 2000, disableOnInteraction: false }}
       >
         <SwiperSlide className="w-full">
-          <img src="slider (1).png" alt="slider" className="w-full" />
+          <img src="slider (1).png" alt="slider" loading="lazy" className="w-full" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="slider (2).png" alt="slider" className="w-full" />
+          <img src="slider (2).png" alt="slider" loading="lazy" className="w-full" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="slider (3).png" alt="slider" className="w-full"/>
+          <img src="slider (3).png" alt="slider" loading="lazy" className="w-full"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="slider (4).png" alt="slider" className="w-full"/>
+          <img src="slider (4).png" alt="slider" loading="lazy" className="w-full"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="slider (5).png" alt="slider" className="w-full"/>
+          <img src="slider (5).png" alt="slider" loading="lazy" className="w-full"/>
         </SwiperSlide>
       </Swiper>
     </div>
