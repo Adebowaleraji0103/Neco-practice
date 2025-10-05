@@ -33,7 +33,8 @@ const LatestNews = () => {
     {
       id: 6,
       tittle: "NATIONAL EXAMINATIONS COUNCIL (NECO) PUBLIC NOTICE",
-      content: "REQUEST FOR RE-PRINT OF CERTIFICATE The National Examinations Council (NE...",
+      content:
+        "REQUEST FOR RE-PRINT OF CERTIFICATE The National Examinations Council (NE...",
     },
     {
       id: 7,
@@ -47,15 +48,17 @@ const LatestNews = () => {
       tittle: "HOW TO APPLY FOR SCRIPT(S) REMARKING",
       content: "NOTE: Candidates must apply within 16 months after the...",
     },
-       {
+    {
       id: 9,
       tittle: "NECO 2023 NCEE Examination Rescheduled",
-      content: "The National Examinations Council (NECO) recently announced that t...",
+      content:
+        "The National Examinations Council (NECO) recently announced that t...",
     },
-       {
+    {
       id: 10,
       tittle: "2023 NCEE and Gifted Exams Rescheduled",
-      content: "The National Examinations Council (NECO) has postponed the National Common Entrance Examination (...",
+      content:
+        "The National Examinations Council (NECO) has postponed the National Common Entrance Examination (...",
     },
   ];
 
@@ -65,10 +68,15 @@ const LatestNews = () => {
 
       <div className="grid md:grid-cols-2 gap-9">
         {news.map((news, index) => (
-          <div key={index} className="border">
-            <span className="border">{news.id}</span>
-            <span className="text-[#054C0F]">{news.tittle}</span>
-            <span>{news.content}</span>
+          <div
+            key={index}
+            className="border border-gray-500 rounded-[9px] py-10 px-6 flex gap-3"
+          >
+            <p className="border h-fit w-fit px-3 py-2">{news.id}</p>
+            <div className="">
+              <p className="text-[#054C0F]">{news.tittle}</p>
+              <p>{news.content}</p>
+            </div>
           </div>
         ))}
       </div>
