@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 w-[65%]">
+      <div className="grid grid-cols-2 gap-10 md:grid-cols-3 md:w-[65%]">
         <div>
           <h3>Use Links</h3>
           <ul>
