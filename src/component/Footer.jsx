@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="mb-90 bg-[#054C0F] py-[4rem] md:grid-cols-4">
-      <div className="hidden md:flex flex-col text-white">
+    <div className="mb-90 bg-[#054C0F] py-[4rem] padding md:flex justify-center items-center">
+      <div className="hidden md:flex flex-col text-white md:w-[35%]">
         <h2>Logo</h2>
         <div className="flex gap-3">
           <a href="">Facebook</a>
@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 w-[65%]">
         <div>
           <h3>Use Links</h3>
           <ul>
