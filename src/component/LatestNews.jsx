@@ -9,60 +9,67 @@ const LatestNews = () => {
     },
     {
       id: 2,
-      tittle: "",
+      tittle: "NECO Updates 2024 SSCE Internal Timetable",
       content: "The National Examination Council (NECO) has...",
     },
     {
       id: 3,
-      tittle:
-        "2025 SSCE External Registration Guidelines and Examination Timetable Released",
+      tittle: "NECO DIGITALIZES RECRUITMENT OF EXAMINATION SUPERVISORS",
       content:
-        "We are pleased to inform all candidates and stakeholders that the 2025 SSCE External Registration...",
+        "The National Examinations Council (NECO) has digitalized the recruitment process for Examination ...",
     },
     {
       id: 4,
-      tittle: "",
-      content: "The National Examination Council (NECO) has...",
+      tittle: "NECO 2023 Gifted Examination Postponed",
+      content:
+        "The National Examinations Council (NECO) has recently made an anno...",
     },
     {
       id: 5,
-      tittle:
-        "2025 SSCE External Registration Guidelines and Examination Timetable Released",
+      tittle: "NECO 2023 SSCE Internal Registration Deadline",
       content:
-        "We are pleased to inform all candidates and stakeholders that the 2025 SSCE External Registration...",
+        "The National Examinations Council (NECO) has officially announced ...",
     },
     {
       id: 6,
-      tittle: "",
-      content: "The National Examination Council (NECO) has...",
+      tittle: "NATIONAL EXAMINATIONS COUNCIL (NECO) PUBLIC NOTICE",
+      content: "REQUEST FOR RE-PRINT OF CERTIFICATE The National Examinations Council (NE...",
     },
     {
       id: 7,
       tittle:
-        "2025 SSCE External Registration Guidelines and Examination Timetable Released",
+        "NECO HAS NOT EXTENDED CLOSING DATE FOR 2024 SSCE INTERNAL REGISTRATION ",
       content:
-        "We are pleased to inform all candidates and stakeholders that the 2025 SSCE External Registration...",
+        "The National Examinations Council (NECO) has not extended the closing date for the 2024 Senior Sc...",
     },
     {
       id: 8,
-      tittle: "",
-      content: "The National Examination Council (NECO) has...",
+      tittle: "HOW TO APPLY FOR SCRIPT(S) REMARKING",
+      content: "NOTE: Candidates must apply within 16 months after the...",
+    },
+       {
+      id: 9,
+      tittle: "NECO 2023 NCEE Examination Rescheduled",
+      content: "The National Examinations Council (NECO) recently announced that t...",
+    },
+       {
+      id: 10,
+      tittle: "2023 NCEE and Gifted Exams Rescheduled",
+      content: "The National Examinations Council (NECO) has postponed the National Common Entrance Examination (...",
     },
   ];
 
   return (
-    <div>
+    <div className="padding">
       <h1>Latest News</h1>
 
       <div className="grid md:grid-cols-2 gap-9">
         {news.map((news, index) => (
-          <ul key={index} className="">
-            <li className="text-[#054C0F]">
-              {news.tittle}
-              {news.content}
-            </li>
-            {/* <li className="text-gray-600"></li> */}
-          </ul>
+          <div key={index} className="border">
+            <span className="border">{news.id}</span>
+            <span className="text-[#054C0F]">{news.tittle}</span>
+            <span>{news.content}</span>
+          </div>
         ))}
       </div>
     </div>
