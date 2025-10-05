@@ -63,18 +63,22 @@ const LatestNews = () => {
   ];
 
   return (
-    <div className="padding">
-      <h1>Latest News</h1>
+    <div className="padding flex flex-col gap-[2rem]">
+      <h1 className="font-bold text-[27px] text-center md:text-[34px]">
+        Latest News
+      </h1>
 
       <div className="grid md:grid-cols-2 gap-9">
         {news.map((news, index) => (
           <div
             key={index}
-            className="border border-gray-500 rounded-[9px] py-10 px-6 flex gap-3"
+            className="border border-[#054C0F] rounded-[9px] py-10 px-6 flex gap-3"
           >
-            <p className="border h-fit w-fit px-3 py-2">{news.id}</p>
-            <div className="">
-              <p className="text-[#054C0F]">{news.tittle}</p>
+            <p className="border rounded-[4px] h-fit w-fit px-3 py-2">{news.id}</p>
+            <div className="flex flex-col gap-1">
+              <a href="#" className="text-[#054C0F] font-semibold text-[16px] md:text-[18px]">
+                {news.tittle}
+              </a>
               <p>{news.content}</p>
             </div>
           </div>
