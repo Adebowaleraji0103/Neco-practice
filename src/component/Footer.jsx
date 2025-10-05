@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="mb-90 bg-[#054C0F] text-gray-200 py-[4rem] px-[1rem] md:flex justify-center items-center md:px-[7rem]">
+    <div className="mb-90 bg-[#054C0F] text-gray-300 text-[17px] font-semibold py-[4rem] px-[1rem] md:flex justify-center items-center md:px-[7rem]">
       <div className="hidden md:flex flex-col text-white md:w-[35%]">
         <h2>Logo</h2>
         <div className="flex gap-3">
@@ -11,9 +11,9 @@ const Footer = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-10 md:grid-cols-3 md:w-[65%]">
-        <div>
+        <div className="flex flex-col gap-6 text-white">
           <h3>Use Links</h3>
-          <ul>
+          <ul className="flex flex-col gap-4 text-gray-300">
             <li>
               <a href="#">Home</a>
             </li>
@@ -43,7 +43,7 @@ const Footer = () => {
         {/* ............................. */}
         <div>
           <h3>Use Links</h3>
-          <ul>
+          <ul className="flex flex-col gap-4">
             <li>
               <a href="#">Home</a>
             </li>
@@ -73,7 +73,7 @@ const Footer = () => {
         {/* ......................................... */}
         <div>
           <h3>Use Links</h3>
-          <ul>
+          <ul className="flex flex-col gap-4">
             <li>
               <a href="#">Home</a>
             </li>
