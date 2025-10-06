@@ -10,8 +10,8 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-[3rem] mb-90">
-      <div className=" bg-[#054C0F] text-gray-300 text-[17px] font-semibold py-[4rem] px-[1rem] md:flex justify-center items-center md:px-[7rem]">
+    <div className="flex flex-col gap-[3rem] py-[4rem] px-[1rem] bg-[#054C0F] text-gray-300 text-[17px] font-semibold md:px-[7rem] md:py-[7rem]">
+      <div className=" md:flex justify-center items-center ">
       <div className="hidden md:flex flex-col gap-7 text-white md:w-[35%]">
         <img src="neco-logo.png" alt="neco logo alt" className="w-[90px]" />
         <div className="flex gap-6 ">
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-10 md:grid-cols-3 md:w-[65%]">
+      <div className="px-[1.5rem] grid grid-cols-2 gap-10 md:grid-cols-3 md:w-[65%]">
         <div className="flex flex-col gap-6 text-white">
           <h3>Use Links</h3>
           <ul className="flex flex-col gap-4 text-gray-300 ">
@@ -103,8 +103,12 @@ const Footer = () => {
         </div>
       </div>
     </div>
-      <div>
-        <span className="w-[4rem] h-[2rem] inline-block bg-white "></span>
+      <div className="flex flex-col gap-[2rem]">
+        <span className="w-full h-[1px] inline-block bg-gray-300 "></span>
+        <div className="flex flex-col gap-4 text-center text-white md:flex-row md:justify-between ">
+          <p>© 2025 Copyright - National Examinations Council.</p>
+          <p>National Examinations Council (NECO) Km 8, Bida Road, P.M.B 159, Minna, Nigeria.</p>
+        </div>
       </div>
     </div>
   );
