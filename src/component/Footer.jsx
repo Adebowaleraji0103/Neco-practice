@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="grid grid-cols-2 gap-10 md:grid-cols-3 md:w-[65%]">
         <div className="flex flex-col gap-6 text-white">
           <h3>Use Links</h3>
-          <ul className="flex flex-col gap-4 text-gray-300">
+          <ul className="flex flex-col gap-4 text-gray-300 ">
             <li>
               <a href="#">Home</a>
             </li>
@@ -41,9 +41,9 @@ const Footer = () => {
           </ul>
         </div>
         {/* ............................. */}
-        <div>
+        <div className="flex flex-col gap-6 text-white">
           <h3>Our Portal</h3>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-4 text-gray-300 ">
             <li>
               <a href="#">Our Examination</a>
             </li>
@@ -65,9 +65,9 @@ const Footer = () => {
           </ul>
         </div>
         {/* ......................................... */}
-        <div>
+        <div className="flex flex-col gap-6 text-white">
           <h3>Contact Us</h3>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-4 text-gray-300 ">
             <li>
               <a href="#">07012345678</a>
             </li>
