@@ -10,7 +10,8 @@ const Footer = () => {
   ];
 
   return (
-    <div className="mb-90 bg-[#054C0F] text-gray-300 text-[17px] font-semibold py-[4rem] px-[1rem] md:flex justify-center items-center md:px-[7rem]">
+    <div className="flex flex-col gap-[3rem] mb-90">
+      <div className=" bg-[#054C0F] text-gray-300 text-[17px] font-semibold py-[4rem] px-[1rem] md:flex justify-center items-center md:px-[7rem]">
       <div className="hidden md:flex flex-col gap-7 text-white md:w-[35%]">
         <img src="neco-logo.png" alt="neco logo alt" className="w-[90px]" />
         <div className="flex gap-6 ">
@@ -100,6 +101,10 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
+    </div>
+      <div>
+        <span className="w-[4rem] h-[2rem] inline-block bg-white "></span>
       </div>
     </div>
   );
