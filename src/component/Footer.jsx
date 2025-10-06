@@ -42,13 +42,13 @@ const Footer = () => {
         </div>
         {/* ............................. */}
         <div>
-          <h3>Use Links</h3>
+          <h3>Our Portal</h3>
           <ul className="flex flex-col gap-4">
             <li>
-              <a href="#">Home</a>
+              <a href="#">Our Examination</a>
             </li>
             <li>
-              <a href="#">Management</a>
+              <a href="#">NECO Results</a>
             </li>
             <li>
               <a href="#">Mission & Vision</a>
