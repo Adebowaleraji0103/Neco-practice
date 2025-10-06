@@ -3,15 +3,22 @@ import { FiFacebook } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
+  const socials = [
+    { name: <FaInstagram /> },
+    { name: <FiFacebook /> },
+    { name: <RiTwitterXFill /> },
+  ];
+
   return (
     <div className="mb-90 bg-[#054C0F] text-gray-300 text-[17px] font-semibold py-[4rem] px-[1rem] md:flex justify-center items-center md:px-[7rem]">
-      <div className="hidden md:flex flex-col text-white md:w-[35%]">
-        {/* <h2>Logo</h2> */}
+      <div className="hidden md:flex flex-col gap-7 text-white md:w-[35%]">
         <img src="neco-logo.png" alt="neco logo alt" className="w-[90px]" />
-        <div className="flex gap-3">
-          <FaInstagram />
-          <FiFacebook />
-          <RiTwitterXFill />
+        <div className="flex gap-6 ">
+          {socials.map((logo, index)=>(
+            <div key={index}>
+                <p className="bg-">{logo.name}</p>
+            </div>
+          ))}
         </div>
       </div>
 
