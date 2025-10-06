@@ -1,10 +1,14 @@
+import { FaInstagram } from "react-icons/fa6";
+
+
 const Footer = () => {
   return (
     <div className="mb-90 bg-[#054C0F] text-gray-300 text-[17px] font-semibold py-[4rem] px-[1rem] md:flex justify-center items-center md:px-[7rem]">
       <div className="hidden md:flex flex-col text-white md:w-[35%]">
-        <h2>Logo</h2>
+        {/* <h2>Logo</h2> */}
+        <img src="neco-logo.png" alt="neco logo alt"  className="w-[90px]"/>
         <div className="flex gap-3">
-          <a href="">Facebook</a>
+          <FaInstagram />
           <a href="">Instagram</a>
           <a href="">Twitter</a>
         </div>
