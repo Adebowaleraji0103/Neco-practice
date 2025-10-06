@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex gap-6 ">
           {socials.map((logo, index)=>(
             <div key={index}>
-                <p className="bg-">{logo.name}</p>
+                <p className="bg-[#4A9E52] px-3 py-3 rounded-full">{logo.name}</p>
             </div>
           ))}
         </div>
