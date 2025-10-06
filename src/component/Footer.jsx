@@ -51,22 +51,16 @@ const Footer = () => {
               <a href="#">NECO Results</a>
             </li>
             <li>
-              <a href="#">Mission & Vision</a>
+              <a href="#">Payments</a>
             </li>
             <li>
-              <a href="#">State Offices</a>
+              <a href="#">Centres</a>
             </li>
             <li>
-              <a href="#">Our Blog</a>
+              <a href="#">Operators</a>
             </li>
             <li>
-              <a href="#">About NECO</a>
-            </li>
-            <li>
-              <a href="FAQ"></a>
-            </li>
-            <li>
-              <a href="">Privacy Policy</a>
+              <a href="#">Support</a>
             </li>
           </ul>
         </div>
