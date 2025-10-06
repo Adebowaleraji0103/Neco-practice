@@ -66,31 +66,25 @@ const Footer = () => {
         </div>
         {/* ......................................... */}
         <div>
-          <h3>Use Links</h3>
+          <h3>Contact Us</h3>
           <ul className="flex flex-col gap-4">
             <li>
-              <a href="#">Home</a>
+              <a href="#">07012345678</a>
             </li>
             <li>
-              <a href="#">Management</a>
+              <a href="#">09012345678</a>
             </li>
             <li>
-              <a href="#">Mission & Vision</a>
+              <a href="#">08112345678</a>
             </li>
             <li>
-              <a href="#">State Offices</a>
+              <a href="#">09012345678</a>
             </li>
             <li>
-              <a href="#">Our Blog</a>
+              <a href="#">07023456789</a>
             </li>
             <li>
-              <a href="#">About NECO</a>
-            </li>
-            <li>
-              <a href="FAQ"></a>
-            </li>
-            <li>
-              <a href="">Privacy Policy</a>
+              <a href="#">info@neco.gov.ng</a>
             </li>
           </ul>
         </div>
