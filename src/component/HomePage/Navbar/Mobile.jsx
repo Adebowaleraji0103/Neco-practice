@@ -2,9 +2,7 @@ import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import { CgCloseR } from "react-icons/cg";
 import NavbarLink from "./NavbarLink";
-
-
-
+import { Link } from "react-router";
 
 const Mobile = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -26,6 +24,9 @@ const Mobile = () => {
             <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
               {NavbarLink.map((nav, index) => (
                 <li key={index}>
+                  <Link to={nav.href} className="hover:text-gray-400">
+                    {nav.label}
+                  </Link>
                   <a href={nav.href}>{nav.label}</a>
                 </li>
               ))}
