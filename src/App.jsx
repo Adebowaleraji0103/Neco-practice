@@ -1,10 +1,10 @@
-import Navbar from "./Navbar/Navbar";
-import Footer from "./component/Footer";
-import Hero from "./component/Hero";
-import ImageSlider from "./component/ImageSlider";
-import LatestNews from "./component/LatestNews";
-import NecoGlobalReach from "./component/NecoGlobalReach";
-import Verification from "./component/Verification";
+import Navbar from "./component/HomePage/Navbar/Navbar";
+import Footer from "./component/HomePage/Footer";
+import Hero from "./component/HomePage/Hero";
+import ImageSlider from "./component/HomePage/ImageSlider";
+import LatestNews from "./component/HomePage/LatestNews";
+import NecoGlobalReach from "./component/HomePage/NecoGlobalReach";
+import Verification from "./component/HomePage/Verification";
 
 function App() {
   return (
