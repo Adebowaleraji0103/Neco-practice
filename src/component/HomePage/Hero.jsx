@@ -5,9 +5,11 @@ const Hero = () => {
         Welcome to the National Examinations Council Website
       </h1>
       <p className="text-[#6b7280] text-[17px]">
-        The National Examinations Council (NECO) is pleased to announce that the
-        registration for the 2025 Senior School Certificate Examination
-        (Internal) has commenced.
+          This website is a personal project created for educational and
+          practice purposes. It is inspired by the design and content of
+          <a href="https://neco.gov.ng/">neco.gov.ng/</a>, but is not affiliated with or endorsed by the
+          original creators. Some elements have been modified to suit the scope
+          of this project.
       </p>
     </div>
   );
