@@ -13,11 +13,11 @@ function App() {
       <HomePage/>
       {/* <Navbar /> */}
       {/* <Hero /> */}
-      <ImageSlider />
-      <NecoGlobalReach />
-      <Verification />
-      <LatestNews />
-      <Footer />
+      {/* <ImageSlider /> */}
+      {/* <NecoGlobalReach /> */}
+      {/* <Verification /> */}
+      {/* <LatestNews /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

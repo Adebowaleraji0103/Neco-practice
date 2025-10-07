@@ -1,6 +1,8 @@
 import Hero from "./Hero";
 import ImageSlider from "./ImageSlider";
 import Navbar from "./Navbar/Navbar";
+import NecoGlobalReach from "./NecoGlobalReach";
+import Verification from "./Verification";
 
 function HomePage() {
   return (
@@ -8,6 +10,8 @@ function HomePage() {
       <Navbar />
       <Hero/>
       <ImageSlider/>
+      <NecoGlobalReach/>
+      <Verification/>
     </div>
   );
 }
