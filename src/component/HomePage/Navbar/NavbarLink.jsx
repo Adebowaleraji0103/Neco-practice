@@ -7,16 +7,5 @@ const NavbarLink = [
   { label: "Support", href: "support" },
 ];
 
-// const NavbarLink = () => {
-//   return (
-//     <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
-//       {Navlinks.map((nav, index) => (
-//         <li key={index}>
-//           <a href={nav.href}>{nav.label}</a>
-//         </li>
-//       ))}
-//     </ul>
-//   );
-// };
 
 export default NavbarLink;
