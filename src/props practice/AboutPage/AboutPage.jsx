@@ -1,7 +1,8 @@
 function AboutPage () {
     return(
         <div>
-                <h1>sjdjdj</h1>    </div>
+                
+        </div>
     )
 }
 export default AboutPage;

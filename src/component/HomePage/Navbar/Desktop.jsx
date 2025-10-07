@@ -1,8 +1,9 @@
 import Button from "../Button";
+// import { Link } from "react-router";
 
 const Navlink = [
   { label: "Home", href: "home" },
-  { label: "About Us", href: "#about" },
+  { label: "About Us", href: "/about" },
   { label: "Our Exam", href: "exam" },
   { label: "Payment", href: "payment" },
   { label: "FAQ", href: "faq" },
@@ -22,7 +23,10 @@ const Desktop = () => {
       <ul className="relative gap-10 hidden flex-1 md:flex md:justify-center">
         {Navlink.map((nav, index) => (
           <li key={index}>
-            <a className="hover:text-gray-400" href={nav.href}>
+            {/* <Link to={(href = nav.href)} className="hover:text-gray-400">
+              {nav.label}
+            </Link> */}
+            <a href={nav.href}>
               {nav.label}
             </a>
           </li>
