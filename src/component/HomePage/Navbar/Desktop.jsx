@@ -1,7 +1,6 @@
 import Button from "../Button";
 import NavbarLink from "./NavbarLink";
-// import { Link } from "react-router";
-
+import { Link } from "react-router-dom";
 
 
 const Desktop = () => {
@@ -16,12 +15,10 @@ const Desktop = () => {
       <ul className="relative gap-10 hidden flex-1 md:flex md:justify-center">
         {NavbarLink.map((nav, index) => (
           <li key={index}>
-            {/* <Link to={(href = nav.href)} className="hover:text-gray-400">
+            <Link to={(nav.href)} className="hover:text-gray-400">
               {nav.label}
-            </Link> */}
-            <a href={nav.href}>
-              {nav.label}
-            </a>
+            </Link>
+           
           </li>
         ))}
       </ul>
