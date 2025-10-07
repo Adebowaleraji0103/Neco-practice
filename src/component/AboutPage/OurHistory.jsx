@@ -29,7 +29,7 @@ const OurHsitory = () => {
           efficient. The recommendation of the committee was not implemented at
           the time...
         </p>
-        <img src="slider (5).png" alt="" className="md:w-[30%]"/>
+        <img src="aboutpic.png" alt="" className="md:w-[30%]"/>
       </div>
     </div>
   );
