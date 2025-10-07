@@ -27,7 +27,6 @@ const Mobile = () => {
                   <Link to={nav.href} className="hover:text-gray-400">
                     {nav.label}
                   </Link>
-                  <a href={nav.href}>{nav.label}</a>
                 </li>
               ))}
             </ul>
