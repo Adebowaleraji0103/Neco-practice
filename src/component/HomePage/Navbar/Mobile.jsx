@@ -1,16 +1,10 @@
 import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import { CgCloseR } from "react-icons/cg";
+import NavbarLink from "./NavbarLink";
 
 
-const Navlink = [
-  { label: "Home", href: "home" },
-  { label: "About Us", href: "#about" },
-  { label: "Our Exam", href: "exam" },
-  { label: "Payment", href: "payment" },
-  { label: "FAQ", href: "faq" },
-  { label: "Support", href: "support" },
-];
+
 
 const Mobile = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -30,7 +24,7 @@ const Mobile = () => {
           <div className="flex flex-col gap-10 w-[65%] bg-white px-3 pt-[3.5rem] text-black text-[25px] ">
             <h1>Menu</h1>
             <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
-              {Navlink.map((nav, index) => (
+              {NavbarLink.map((nav, index) => (
                 <li key={index}>
                   <a href={nav.href}>{nav.label}</a>
                 </li>
