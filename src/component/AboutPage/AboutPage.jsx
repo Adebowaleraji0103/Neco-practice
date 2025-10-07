@@ -1,7 +1,10 @@
+import OurHsitory from "./OurHistory";
+
 function AboutPage () {
     return(
-        <div>
-                <h1 className="text-[50px] font-bold  mt-[5rem]" >sjdjdj</h1>    </div>
+        <div className=" ">
+            <OurHsitory/>
+                </div>
     )
 }
 export default AboutPage;

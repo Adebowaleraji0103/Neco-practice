@@ -1,6 +1,6 @@
 const OurHsitory = () => {
   return (
-    <div>
+    <div className="padding mt-[7rem]">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
       repellendus error minima fuga, laboriosam similique exercitationem earum
       temporibus corrupti, rerum, nam reiciendis ipsam magnam aperiam sapiente
