@@ -5,11 +5,13 @@ import ImageSlider from "./component/HomePage/ImageSlider";
 import LatestNews from "./component/HomePage/LatestNews";
 import NecoGlobalReach from "./component/HomePage/NecoGlobalReach";
 import Verification from "./component/HomePage/Verification";
+import HomePage from "./component/HomePage/HomePage";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <HomePage/>
+      {/* <Navbar /> */}
       <Hero />
       <ImageSlider />
       <NecoGlobalReach />
