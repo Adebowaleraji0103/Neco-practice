@@ -12,7 +12,7 @@ function App() {
     <div>
       <HomePage/>
       {/* <Navbar /> */}
-      <Hero />
+      {/* <Hero /> */}
       <ImageSlider />
       <NecoGlobalReach />
       <Verification />
