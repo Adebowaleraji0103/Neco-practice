@@ -18,7 +18,7 @@ const Footer = () => {
             {socials.map((logo, index) => (
               <div key={index}>
                 <p className="bg-[#4A9E52] px-3 py-3 rounded-full">
-                  {logo.name}
+                  <a href=""> {logo.name}</a>
                 </p>
               </div>
             ))}
