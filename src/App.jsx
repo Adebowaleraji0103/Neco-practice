@@ -1,11 +1,11 @@
-import About from "./component/AboutPage/About";
+import AboutPage from "./component/AboutPage/AboutPage";
 import HomePage from "./component/HomePage/HomePage";
 
 function App() {
   return (
     <div>
       <HomePage />
-      <About/>
+      <AboutPage/>
     </div>
   );
 }
