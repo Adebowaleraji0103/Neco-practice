@@ -1,3 +1,4 @@
+import NecoWorldwide from "./NecoWorldwide";
 import OurHsitory from "./OurHistory";
 import OurPurpose from "./OurPurpose";
 
@@ -6,6 +7,7 @@ function AboutPage() {
     <div className=" ">
       <OurHsitory />
       <OurPurpose />
+      <NecoWorldwide />
     </div>
   );
 }
