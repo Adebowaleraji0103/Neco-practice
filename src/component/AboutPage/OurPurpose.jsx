@@ -1,10 +1,10 @@
 function OurPurpose() {
   return (
-    <main>
-      <div>
-        <h1>Our Purpose</h1>
+    <main className="flex flex-col gap-[2rem] md:flex-row md:justify-between">
+      <div className="flex padding flex-col gap-5 text-white bg-[#0B2502] mt-5 lg:mt-0 text-[14px] font-semibold lg:text-base md:w-[50%]">
+        <h1 className="text-[28px] text-center font-bold md:text-[32px] md:flex">Our Purpose</h1>
         {/* ......Mission......  */}
-        <div>
+        <div >
           <h2>Our Mission</h2>
           <p>
             To deliver Examinations whose results are trusted worldwide for
@@ -27,7 +27,7 @@ function OurPurpose() {
       </div>
 
       {/* ....... second session ....... */}
-      <div>
+      <div className="flex padding flex-col gap-5 text-[#4E4E4E] mt-5 lg:mt-0 text-[14px] font-semibold lg:text-base md:w-[50%]">
         <h1>Our Mandate</h1>
         <div>
           <p>
