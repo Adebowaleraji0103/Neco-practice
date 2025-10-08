@@ -4,7 +4,7 @@ const OurHsitory = () => {
   return (
     <div className="flex flex-col gap-[1rem] padding mt-[7rem]">
       {/* <Note /> */}
-      <h1 className="text-[28px] text-center font-bold">Our History</h1>
+      <h1 className="text-[28px] text-center font-bold md:text-[32px]">Our History</h1>
       <div className="flex justify-between flex-col-reverse lg:flex-row lg:gap-20 items-center">
         <p className="text-[#4E4E4E] mt-5 lg:mt-0 text-sm lg:text-base md:w-[60%]">
           The establishment of the National Examinations Council (NECO) in April
