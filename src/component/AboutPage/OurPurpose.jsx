@@ -1,33 +1,35 @@
+const name = [
+  {
+    h2: "Our Mission",
+    p: " To deliver Examinations whose results are trusted worldwide for their credibility",
+  },
+  {
+    h2: "Our Vision",
+    p: " To become a major player within the global assessment industry",
+  },
+  {
+    h2: "Core Values",
+    p: " Redefining the future of the Nigerian child through quality assessmenty",
+  },
+];
+
 function OurPurpose() {
   return (
-    <main className="flex flex-col gap-[2rem] md:flex-row md:justify-between">
-      <div className="flex padding flex-col gap-5 text-white bg-[#0B2502] mt-5 lg:mt-0 text-[14px] font-semibold lg:text-base md:w-[50%]">
-        <h1 className="text-[28px] text-center font-bold md:text-[32px] md:flex">Our Purpose</h1>
-        {/* ......Mission......  */}
-        <div >
-          <h2>Our Mission</h2>
-          <p>
-            To deliver Examinations whose results are trusted worldwide for
-            their credibility
-          </p>
-        </div>
-        {/* .......Vision.........  */}
-        <div>
-          <h2>Our Vision</h2>
-          <p>To become a major player within the global assessment industry</p>
-        </div>
-        {/* ........ Core Values ...........  */}
-        <div>
-          <h2>Core Values</h2>
-          <p>
-            Redefining the future of the Nigerian child through quality
-            assessment
-          </p>
-        </div>
+    <main className="flex flex-col gap-[2rem] text-[14px] text-white md:flex-row md:justify-between md:text-[16px]">
+      <div className="flex padding flex-col gap-5 bg-[#0B2502] mt-5 font-semibold md:w-[50%]">
+        <h2 className="text-[28px] text-center text-white font-bold md:text-[32px] md:flex">
+          Our Purpose
+        </h2>
+        {name.map((text, index) => (
+          <div key={index} className="flex flex-col gap-3 text-gray-200">
+            <h2 className="text-[20px] font-semibold">{text.h2}</h2>
+            <p className="leading-5">{text.p}</p>
+          </div>
+        ))}
       </div>
 
       {/* ....... second session ....... */}
-      <div className="flex padding flex-col gap-5 text-[#4E4E4E] mt-5 lg:mt-0 text-[14px] font-semibold lg:text-base md:w-[50%]">
+      <div className="flex px-[1rem] flex-col gap-5 text-[#4E4E4E] mt-5 font-semibold md:px-[5rem] md:w-[50%]">
         <h1>Our Mandate</h1>
         <div>
           <p>
