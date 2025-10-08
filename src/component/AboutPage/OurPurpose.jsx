@@ -15,9 +15,9 @@ const name = [
 
 function OurPurpose() {
   return (
-    <main className="flex flex-col gap-[2rem] text-[14px] text-white md:flex-row md:justify-between md:text-[16px]">
-      <div className="flex padding flex-col gap-5 bg-[#0B2502] mt-5 font-semibold md:w-[50%]">
-        <h2 className="text-[28px] text-center text-white font-bold md:text-[32px] md:flex">
+    <main className="flex flex-col gap-[2rem] text-[14px] text-white md:flex-row md:gap-0 md:text-[16px]">
+      <div className="flex py-[1rem] px-[1.5rem] flex-col gap-5 bg-[#0B2502] font-semibold md:py-[4rem] md:px-[7rem] md:w-[50%]">
+        <h2 className="text-[28px] text-center text-white font-bold md:text-[37px] md:flex">
           Our Purpose
         </h2>
         {name.map((text, index) => (
@@ -29,9 +29,9 @@ function OurPurpose() {
       </div>
 
       {/* ....... second session ....... */}
-      <div className="flex px-[1rem] flex-col gap-5 text-[#4E4E4E] mt-5 font-semibold md:px-[5rem] md:w-[50%]">
-        <h1>Our Mandate</h1>
-        <div>
+      <div className="flex px-[1rem] flex-col gap-5 bg-[#F8FFF8] text-[#4E4E4E] font-semibold md:py-[4rem] md:px-[5rem] md:w-[50%]">
+        <h1 className="text-[28px] text-center font-bold md:text-[37px] md:flex">Our Mandate</h1>
+        <div className="flex flex-col gap-4 leading-5 ">
           <p>
             Conduct of: National Common Entrance Examination (NCEE), Basic
             Education Certificate Examination (BECE), Senior School Certificate

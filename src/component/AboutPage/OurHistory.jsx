@@ -1,7 +1,7 @@
 const OurHsitory = () => {
   return (
     <div className="flex flex-col gap-[1rem] padding mt-[7rem]">
-      <h1 className="text-[28px] text-center font-bold md:text-[32px] md:flex">
+      <h1 className="text-[28px] text-center font-bold md:text-[37px] md:flex">
         Our History
       </h1>
       <div className="flex justify-between flex-col-reverse lg:flex-row lg:gap-20 items-center ">
