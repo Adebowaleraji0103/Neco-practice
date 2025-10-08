@@ -15,7 +15,7 @@ const name = [
 
 function OurPurpose() {
   return (
-    <main className="flex flex-col gap-[2rem] text-[14px] text-white md:flex-row md:gap-0 md:text-[16px]">
+    <main className="flex flex-col gap-[2rem] text-[14px] py-[4rem] text-white md:flex-row md:gap-0 md:text-[16px]">
       <div className="flex py-[1rem] px-[1.5rem] flex-col gap-5 bg-[#0B2502] font-semibold md:py-[4rem] md:px-[7rem] md:w-[50%]">
         <h2 className="text-[28px] text-center text-white font-bold md:text-[37px] md:flex">
           Our Purpose
