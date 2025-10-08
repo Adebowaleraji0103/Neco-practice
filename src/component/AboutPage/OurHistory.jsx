@@ -1,11 +1,11 @@
 const OurHsitory = () => {
   return (
     <div className="flex flex-col gap-[1rem] padding mt-[7rem]">
-      <h1 className="text-[28px] text-center font-bold md:text-[32px]">
+      <h1 className="text-[28px] text-center font-bold md:text-[32px] md:flex">
         Our History
       </h1>
-      <div className="flex justify-between flex-col-reverse lg:flex-row lg:gap-20 items-center">
-        <p className="text-[#4E4E4E] mt-5 lg:mt-0 text-sm lg:text-base md:w-[60%]">
+      <div className="flex justify-between flex-col-reverse lg:flex-row lg:gap-20 items-center ">
+        <p className="text-[#4E4E4E] mt-5 lg:mt-0 text-sm lg:text-base md:w-[60%] ">
           The establishment of the National Examinations Council (NECO) in April
           1999, is a culmination of reaction of the Federal Government to
           widespread escalating agitations for a national examination outfit
