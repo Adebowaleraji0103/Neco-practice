@@ -2,7 +2,7 @@ import OurHsitory from "./OurHistory";
 
 function AboutPage() {
   return (
-    <div className="mb-90 ">
+    <div className=" ">
       <OurHsitory />
     </div>
   );

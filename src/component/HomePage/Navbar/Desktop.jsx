@@ -1,4 +1,3 @@
-import Button from "../Button";
 import NavbarLink from "./NavbarLink";
 import { Link } from "react-router-dom";
 
@@ -23,7 +22,9 @@ const Desktop = () => {
         ))}
       </ul>
 
-      <Button />
+     <button className="bg-[#2DC866] text-white py-4 px-5 rounded-[5px] hidden md:flex">
+      Login
+    </button>
     </div>
   );
 };
