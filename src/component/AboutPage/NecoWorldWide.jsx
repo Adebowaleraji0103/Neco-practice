@@ -19,12 +19,14 @@ const NecoWorldWide = () => {
         Foreign Countries:
       </p>
 
-      {allCard.map((card, index)=(
-        <div key={index}>
-            {card.name}
-            {card.country}
+      {/* {allCard.map((card, index)=(
+        <div key={index} className=" bg-[#4A9E52] flex flex-col gap-5 w-full rounded-[17px] font-semibold text-center py-[6rem] border transform transition duration-300 hover:scale-85 overflow-hidden hover:bg-[#599A5E]">
+          <p>  {card.name}</p>
+            <p>{card.country}</p>
         </div>
-      ))}
+
+    
+      ))} */}
     </div>
   );
 };

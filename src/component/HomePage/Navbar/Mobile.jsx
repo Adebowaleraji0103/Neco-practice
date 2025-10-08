@@ -23,7 +23,7 @@ const Mobile = () => {
             <h1>Menu</h1>
             <ul className="flex flex-col gap-6 text-[15px] text-gray-500">
               {NavbarLink.map((nav, index) => (
-                <li key={index}>
+                <li key={index} onClick={()=>setMenuIsOpen(false)}>
                   <Link to={nav.href} className="hover:text-gray-400">
                     {nav.label}
                   </Link>

@@ -1,6 +1,8 @@
 import NavbarLink from "./NavbarLink";
 import { Link } from "react-router-dom";
 
+console.log(Link)
+
 
 const Desktop = () => {
   return (
