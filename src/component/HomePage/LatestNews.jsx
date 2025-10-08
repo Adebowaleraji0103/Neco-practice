@@ -63,7 +63,7 @@ const LatestNews = () => {
   ];
 
   return (
-    <div className=" mb-[3rem] padding  flex flex-col gap-[2rem] md:px-[8rem]">
+    <div className=" mb-[3rem]  flex flex-col gap-[2rem] px-[1.5rem] py-[1rem] md:px-[8rem] md:py-[1.5rem]">
       <h1 className="font-bold text-[27px] text-center md:text-[34px]">
         Latest News
       </h1>
