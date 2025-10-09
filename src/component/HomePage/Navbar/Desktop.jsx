@@ -16,7 +16,7 @@ const Desktop = () => {
       <ul className="relative gap-10 hidden flex-1 md:flex md:justify-center">
         {NavbarLink.map((nav, index) => (
           <li key={index}>
-            <Link to={(nav.href)} className="hover:text-gray-400">
+            <Link to={(nav.href)} className="hover:text-gray-400 " onClick={{Text}}>
               {nav.label}
             </Link>
            
