@@ -6,7 +6,6 @@ const allCard = [
   { name: "Ab", country: "Saudi" },
   { name: "Ab", country: "Saudi" },
   { name: "Ab", country: "Saudi" },
-  
 ];
 
 const NecoWorldWide = () => {
@@ -27,12 +26,9 @@ const NecoWorldWide = () => {
 
     
       ))} */}
-      {allCard.map((card, index)=>(
-        <div key={index} className="bg-[#4A9E52] ">
-          <p>{card.name}</p>
-          <p>{card.country}</p>
-        </div>
-      ))}
+      <div>
+        
+      </div>
     </div>
   );
 };
