@@ -27,7 +27,14 @@ const NecoWorldWide = () => {
     
       ))} */}
       <div>
-        
+        {allCard.map((card, index) => (
+          <div key={index} className="grid grid-rows-2">
+            <div className="bg-[#4A9E52] grid ">
+              <p>{card.name}</p>
+              <p>{card.country}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
