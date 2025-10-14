@@ -27,6 +27,11 @@ const NecoWorldWide = () => {
 
     
       ))} */}
+      {allCard.map((card, index)=>(
+        <div key={index}>
+
+        </div>
+      ))}
     </div>
   );
 };
