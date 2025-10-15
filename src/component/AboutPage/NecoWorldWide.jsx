@@ -10,7 +10,7 @@ const allCard = [
 
 const NecoWorldWide = () => {
   return (
-    <div className="bg-[#1F6D27] padding  py-[2rem]">
+    <div className="bg-[#1F6D27] py-[2rem] px-[1.5rem]">
       <h1>NECO'S WORLDWIDE REACH</h1>
       <p>
         NECO is a world class examination body conducting standard assessment
