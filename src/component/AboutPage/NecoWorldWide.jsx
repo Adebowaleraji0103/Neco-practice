@@ -18,22 +18,15 @@ const NecoWorldWide = () => {
         Foreign Countries:
       </p>
 
-      {/* {allCard.map((card, index)=(
-        <div key={index} className=" bg-[#4A9E52] flex flex-col gap-5 w-full rounded-[17px] font-semibold text-center py-[6rem] border transform transition duration-300 hover:scale-85 overflow-hidden hover:bg-[#599A5E]">
-          <p>  {card.name}</p>
-            <p>{card.country}</p>
-        </div>
-
-    
-      ))} */}
       <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-4">
         {allCard.map((card, index) => (
-          <div key={index} className="bg-[#4A9E52] py-[1rem] px-[4rem] rounded-[5px]">
-            {/* <div className="bg-[#4A9E52] grid w-fit px-[3rem] py-[1rem]"> */}
-              <p>{card.name}</p>
-              <p>{card.country}</p>
-            </div>
-          // </div>
+          <div
+            key={index}
+            className="bg-[#4A9E52] py-[1rem] px-[4rem] rounded-[5px]"
+          >
+            <p>{card.name}</p>
+            <p>{card.country}</p>
+          </div>
         ))}
       </div>
     </div>
