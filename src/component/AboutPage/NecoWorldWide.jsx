@@ -26,14 +26,14 @@ const NecoWorldWide = () => {
 
     
       ))} */}
-      <div className="grid grid-cols-4">
+      <div className="flex gap-7">
         {allCard.map((card, index) => (
-          <div key={index} className="grid grid-rows-2 gap-2">
-            <div className="bg-[#4A9E52] grid w-fit px-[3rem] py-[1rem]">
+          <div key={index} className="bg-[#4A9E52] py-[1rem]">
+            {/* <div className="bg-[#4A9E52] grid w-fit px-[3rem] py-[1rem]"> */}
               <p>{card.name}</p>
               <p>{card.country}</p>
             </div>
-          </div>
+          // </div>
         ))}
       </div>
     </div>
