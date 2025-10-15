@@ -26,7 +26,7 @@ const NecoWorldWide = () => {
 
     
       ))} */}
-      <div className="grid gap-7 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+      <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-4">
         {allCard.map((card, index) => (
           <div key={index} className="bg-[#4A9E52] py-[1rem] px-[4rem] rounded-[5px]">
             {/* <div className="bg-[#4A9E52] grid w-fit px-[3rem] py-[1rem]"> */}
