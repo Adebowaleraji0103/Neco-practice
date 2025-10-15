@@ -10,8 +10,10 @@ const allCard = [
 
 const NecoWorldWide = () => {
   return (
-    <div className="bg-[#1F6D27] py-[2rem] px-[1.5rem]">
-      <h1>NECO'S WORLDWIDE REACH</h1>
+    <div className="bg-[#1F6D27] text-white flex flex-col text-center gap-[2rem] py-[2rem] px-[1.5rem] md:py-[4rem] md:px-[7rem]">
+      <h2 className="text-[28px] text-center font-bold md:text-[37px]">
+        NECO'S WORLDWIDE REACH
+      </h2>
       <p>
         NECO is a world class examination body conducting standard assessment
         and evaluation for Nigerian International schools in the following
@@ -22,7 +24,7 @@ const NecoWorldWide = () => {
         {allCard.map((card, index) => (
           <div
             key={index}
-            className="bg-[#4A9E52] py-[1rem] px-[4rem] rounded-[5px]"
+            className="bg-[#4C8A52] py-[1rem] px-[4rem] rounded-[5px]"
           >
             <p>{card.name}</p>
             <p>{card.country}</p>
