@@ -1,11 +1,11 @@
 const allCard = [
-  { name: "Ab", country: "Saudi" },
-  { name: "Ab", country: "Saudi" },
-  { name: "Ab", country: "Saudi" },
-  { name: "Ab", country: "Saudi" },
-  { name: "Ab", country: "Saudi" },
-  { name: "Ab", country: "Saudi" },
-  { name: "Ab", country: "Saudi" },
+  { name: "Ab", country: "Kingdom of Saudi Arabia" },
+  { name: "Ab", country: "Cote D'Ivoire" },
+  { name: "Ab", country: "Equatorial Guinea" },
+  { name: "Ab", country: "Niger Republic" },
+  { name: "Ab", country: "Benin Republic" },
+  { name: "Ab", country: "Togo" },
+  { name: "Ab", country: "Gabon" },
 ];
 
 const NecoWorldWide = () => {
