@@ -24,7 +24,7 @@ const NecoWorldWide = () => {
         {allCard.map((card, index) => (
           <div
             key={index}
-            className="bg-[#4C8A52] py-[3rem] px-[4rem] rounded-[15px]"
+            className="bg-[#4C8A52] py-[3rem] px-[4rem] rounded-[15px] hover:text-[#FABB18] "  
           >
             <p>{card.name}</p>
             <p>{card.country}</p>
