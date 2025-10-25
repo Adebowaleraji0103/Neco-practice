@@ -57,10 +57,10 @@ const NecoWorldWide = () => {
         ))}
       </div>
 
-      <div className="px-[6rem] mt-[2rem]">
-        <p className="border rounded-2xl border-gray-300 py-[4rem] px-[3rem] ">
+      <div className="px-[1rem] md:px-[6rem] mt-[2rem]">
+        <p className="border rounded-2xl font-semibold border-gray-300 py-[2rem] px-[1rem] md:px-[3rem] md:py-[4rem] md:text-lg">
           This further showcases NECO Results and Certificates international
-          acceptability in congruence with its Mission and Vision. NECO
+          acceptability in congruence with its <span className="text-yellow-400">Mission and Vision.</span> NECO
           continues to witness unbridled worldwide patronage and growth in
           admiration of its excellence in service delivery and client
           satisfaction.
