@@ -1,12 +1,10 @@
 const allCard = [
-  { name: "Ab", country: "Kingdom of Saudi Arabia" },
-  { name: "Ab", country: "Cote D'Ivoire" },
-  { name: "Ab", country: "Equatorial Guinea" },
-  { name: "Ab", country: "Niger Republic" },
-  { name: "Ab", country: "Benin Republic" },
-  { name: "Ab", country: "Togo" },
-  { name: "Ab", country: "Gabon" },
-];
+  { 
+    image : "Kingdom of Saudi Arabia.f97ce6ce.jpg",
+    name: "Ab", 
+    country: "Kingdom of Saudi Arabia"
+   },
+  ]
 
 const NecoWorldWide = () => {
   return (
