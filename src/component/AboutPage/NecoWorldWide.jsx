@@ -3,6 +3,26 @@ const allCard = [
     image: "Kingdom of Saudi Arabia.f97ce6ce.jpg",
     country: "Kingdom of Saudi Arabia",
   },
+    {
+    image: "Kingdom of Saudi Arabia.f97ce6ce.jpg",
+    country: "Kingdom of Saudi Arabia",
+  },
+    {
+    image: "Kingdom of Saudi Arabia.f97ce6ce.jpg",
+    country: "Kingdom of Saudi Arabia",
+  },
+    {
+    image: "Kingdom of Saudi Arabia.f97ce6ce.jpg",
+    country: "Kingdom of Saudi Arabia",
+  },
+    {
+    image: "Kingdom of Saudi Arabia.f97ce6ce.jpg",
+    country: "Kingdom of Saudi Arabia",
+  },
+    {
+    image: "Kingdom of Saudi Arabia.f97ce6ce.jpg",
+    country: "Kingdom of Saudi Arabia",
+  },
 ];
 
 const NecoWorldWide = () => {
@@ -21,7 +41,7 @@ const NecoWorldWide = () => {
         {allCard.map((card, index) => (
           <div
             key={index}
-            className="bg-[#4C8A52] flex flex-col gap-4 rounded-[15px] hover:text-[#FABB18] hover:scale-105 duration-500"
+            className="bg-[#4C8A52] flex flex-col gap-4 rounded-[15px] hover:text-[#FABB18] hover:scale-110 duration-400"
           >
             <img
               src={card.image}
