@@ -56,6 +56,16 @@ const NecoWorldWide = () => {
           </div>
         ))}
       </div>
+
+      <div className="px-[6rem] mt-[2rem]">
+        <p className="border rounded-2xl border-gray-300 py-[4rem] px-[3rem] ">
+          This further showcases NECO Results and Certificates international
+          acceptability in congruence with its Mission and Vision. NECO
+          continues to witness unbridled worldwide patronage and growth in
+          admiration of its excellence in service delivery and client
+          satisfaction.
+        </p>
+      </div>
     </div>
   );
 };
