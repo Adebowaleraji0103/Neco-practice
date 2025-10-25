@@ -6,7 +6,7 @@ const Note = () => {
         purposes. It is inspired by the design and content of
         <a href="https://neco.gov.ng/" className="text-blue-900 font-bold mx-2">
           neco.gov.ng
-        </a>{" "}
+        </a>
         but is not affiliated with or endorsed by the original creators. Some
         elements have been modified to suit the scope of this project.
       </p>

@@ -1,8 +1,8 @@
 const AboutOurExam = () => {
   return (
-    <div className="py-[10rem] bg-amber-700">
-      <div>
-        <h1>About Our Examinations</h1>
+    <div className=" py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem] ">
+      <div className="flex flex-col gap-[1.5rem] text-center ">
+        <h1 className="text-lg font-bold ">About Our Examinations</h1>
         <p>
           One of the core mandates of the Council as espoused in the enabling
           Act is the conduct of the Senior School Certificate Examination for
