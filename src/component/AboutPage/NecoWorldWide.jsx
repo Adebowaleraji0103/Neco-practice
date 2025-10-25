@@ -1,10 +1,9 @@
 const allCard = [
-  { 
-    image : "Kingdom of Saudi Arabia.f97ce6ce.jpg",
-    name: "Ab", 
-    country: "Kingdom of Saudi Arabia"
-   },
-  ]
+  {
+    image: "Kingdom of Saudi Arabia.f97ce6ce.jpg",
+    country: "Kingdom of Saudi Arabia",
+  },
+];
 
 const NecoWorldWide = () => {
   return (
@@ -22,9 +21,9 @@ const NecoWorldWide = () => {
         {allCard.map((card, index) => (
           <div
             key={index}
-            className="bg-[#4C8A52] py-[3rem] px-[4rem] rounded-[15px] hover:text-[#FABB18] "  
+            className="bg-[#4C8A52] rounded-[15px] hover:text-[#FABB18] "
           >
-            <p>{card.name}</p>
+            <img src={card.image} alt={card.image} className="h-[60%] w-full" />
             <p>{card.country}</p>
           </div>
         ))}
