@@ -21,10 +21,10 @@ const NecoWorldWide = () => {
         {allCard.map((card, index) => (
           <div
             key={index}
-            className="bg-[#4C8A52] rounded-[15px] hover:text-[#FABB18] "
+            className="bg-[#4C8A52] flex flex-col gap-4 rounded-[15px] hover:text-[#FABB18] "
           >
-            <img src={card.image} alt={card.image} className="h-[60%] w-full" />
-            <p>{card.country}</p>
+            <img src={card.image} alt={card.image} className="h-[65%] w-full rounded-t-[15px]" />
+            <p className="text-lg font-bold">{card.country}</p>
           </div>
         ))}
       </div>
