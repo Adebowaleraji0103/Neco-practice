@@ -54,8 +54,8 @@ const AboutOurExam = () => {
       <div>
         {allCards.map((card, index) => (
           <div key={index}>
-            {card.name}
-            {card.desc}
+            <h1> {card.name}</h1>
+            <p> {card.desc}</p>
             {card.firstBtn}
             {card.secondBtn}
           </div>
