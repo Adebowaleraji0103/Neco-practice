@@ -52,10 +52,13 @@ const AboutOurExam = () => {
       </div>
 
       <div>
-        {allCards.map((card, index)=>(
-        <div key={index}>
-
-        </div>
+        {allCards.map((card, index) => (
+          <div key={index}>
+            {card.name}
+            {card.desc}
+            {card.firstBtn}
+            {card.secondBtn}
+          </div>
         ))}
       </div>
     </div>
