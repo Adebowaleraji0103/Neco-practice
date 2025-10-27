@@ -51,7 +51,7 @@ const AboutOurExam = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 gap-[2rem]">
         {allCards.map((card, index) => (
           <div key={index} className="border rounded-2xl flex flex-col gap-4">
             <h1> {card.name}</h1>
