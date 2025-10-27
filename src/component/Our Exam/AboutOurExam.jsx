@@ -37,7 +37,7 @@ const allCards = [
 
 const AboutOurExam = () => {
   return (
-    <div className=" py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem] ">
+    <div className="flex flex-col gap-[4rem] py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem] ">
       <div className="flex flex-col gap-[1.5rem] text-[#6b7280]  ">
         <h1 className="text-[25px] font-bold text-black ">
           About Our Examinations
@@ -51,9 +51,9 @@ const AboutOurExam = () => {
         </p>
       </div>
 
-      <div>
+      <div className="grid md:grid-cols-2">
         {allCards.map((card, index) => (
-          <div key={index}>
+          <div key={index} className="border rounded-2xl flex flex-col gap-4">
             <h1> {card.name}</h1>
             <p> {card.desc}</p>
             <button>{card.firstBtn}</button>
