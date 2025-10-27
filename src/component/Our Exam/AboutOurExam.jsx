@@ -50,6 +50,14 @@ const AboutOurExam = () => {
           Education Certificate Examination (BECE).
         </p>
       </div>
+
+      <div>
+        {allCards.map((card, index)=>(
+        <div key={index}>
+
+        </div>
+        ))}
+      </div>
     </div>
   );
 };
