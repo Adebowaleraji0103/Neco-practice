@@ -10,28 +10,24 @@ const allCards = [
     name: "Senior School Certificate Examination (SSCE)",
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
     firstBtn: "Internal",
-    secondBtn: "External",
   },
 
   {
     name: "Senior School Certificate Examination (SSCE)",
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
     firstBtn: "Internal",
-    secondBtn: "External",
   },
 
   {
     name: "Senior School Certificate Examination (SSCE)",
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
     firstBtn: "Internal",
-    secondBtn: "External",
   },
 
   {
     name: "Senior School Certificate Examination (SSCE)",
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
     firstBtn: "Internal",
-    secondBtn: "External",
   },
 ];
 
@@ -53,7 +49,10 @@ const AboutOurExam = () => {
 
       <div className="grid md:grid-cols-2 gap-[2rem]">
         {allCards.map((card, index) => (
-          <div key={index} className="border rounded-2xl flex flex-col gap-4">
+          <div
+            key={index}
+            className="border rounded-xl py-[2rem] px-[2rem] flex flex-col gap-4"
+          >
             <h1> {card.name}</h1>
             <p> {card.desc}</p>
             <button>{card.firstBtn}</button>
