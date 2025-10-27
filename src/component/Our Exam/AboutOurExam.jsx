@@ -51,7 +51,7 @@ const AboutOurExam = () => {
         {allCards.map((card, index) => (
           <div
             key={index}
-            className="border rounded-xl py-[2rem] px-[2rem] flex flex-col gap-4"
+            className="border rounded-xl bg-[#DEECF0] py-[2rem] px-[2rem] flex flex-col gap-4"
           >
             <h1> {card.name}</h1>
             <p> {card.desc}</p>
