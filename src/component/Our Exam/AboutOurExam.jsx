@@ -1,3 +1,8 @@
+name : "Senior School Certificate Examination (SSCE)",
+
+
+
+
 const AboutOurExam = () => {
   return (
     <div className=" py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem] ">
