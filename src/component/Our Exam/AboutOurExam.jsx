@@ -4,38 +4,14 @@ const allCards = [
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
     firstBtn: "Internal",
     secondBtn: "External",
-  },
-
-  {
-    name: "Senior School Certificate Examination (SSCE)",
-    desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
-    firstBtn: "Internal",
-    color: "teal",
-  },
-
-  {
-    name: "Senior School Certificate Examination (SSCE)",
-    desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
-    firstBtn: "Internal",
-  },
-
-  {
-    name: "Senior School Certificate Examination (SSCE)",
-    desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
-    firstBtn: "Internal",
-    color: "teal",
-  },
-
-  {
-    name: "Senior School Certificate Examination (SSCE)",
-    desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
-    firstBtn: "Internal",
+    color: "bg-cyan-100",
+    buttonColor: "bg-cyan-700",
   },
 ];
 
 const AboutOurExam = () => {
   return (
-    <div className="flex flex-col gap-[4rem] py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem] ">
+    <div className="flex flex-col gap-[4rem] py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem]">
       <div className="flex flex-col gap-[1.5rem] text-[#6b7280]  ">
         <h1 className="text-[25px] font-bold text-black ">
           About Our Examinations
@@ -57,7 +33,10 @@ const AboutOurExam = () => {
           >
             <h1> {card.name}</h1>
             <p> {card.desc}</p>
-            <button>{card.firstBtn}</button>
+            <button>
+              {card.firstBtn}
+              {card.color}
+            </button>
             <button> {card.secondBtn}</button>
           </div>
         ))}
