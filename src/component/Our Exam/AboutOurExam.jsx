@@ -10,6 +10,7 @@ const allCards = [
     name: "Senior School Certificate Examination (SSCE)",
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
     firstBtn: "Internal",
+    color: "teal",
   },
 
   {
@@ -22,6 +23,7 @@ const allCards = [
     name: "Senior School Certificate Examination (SSCE)",
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
     firstBtn: "Internal",
+    color: "teal",
   },
 
   {
