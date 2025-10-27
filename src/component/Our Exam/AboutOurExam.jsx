@@ -56,8 +56,8 @@ const AboutOurExam = () => {
           <div key={index}>
             <h1> {card.name}</h1>
             <p> {card.desc}</p>
-            {card.firstBtn}
-            {card.secondBtn}
+            <button>{card.firstBtn}</button>
+            <button> {card.secondBtn}</button>
           </div>
         ))}
       </div>
