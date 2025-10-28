@@ -1,6 +1,6 @@
 const Payment = () => {
   return (
-    <div>
+    <div className="p-[10rem] bg-amber-600">
       <div>
         <h1>Fees & Payments</h1>
         <p>
