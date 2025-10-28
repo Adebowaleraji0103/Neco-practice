@@ -27,10 +27,11 @@ const AboutOurExam = () => {
 
       <div className="grid md:grid-cols-2 gap-[2rem]">
         {allCards.map((card, index) => (
-          <div
-            key={index}
-            className="border rounded-xl bg-[#DEECF0] py-[2rem] px-[2rem] flex flex-col gap-4"
-          >
+          // <div
+          //   key={index}
+          //   className="border rounded-xl bg-[#DEECF0] py-[2rem] px-[2rem] flex flex-col gap-4"
+          // >
+           <div key={index} className={`border rounded-xl  bg-[#DEECF0] py-[2rem] px-[2rem] flex flex-col gap-4 ${card.color}`}>
             <h1> {card.name}</h1>
             <p> {card.desc}</p>
             <button>
