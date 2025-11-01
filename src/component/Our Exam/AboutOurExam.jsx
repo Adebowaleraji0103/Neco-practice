@@ -2,10 +2,26 @@ const allCards = [
   {
     name: "Senior School Certificate Examination (SSCE)",
     desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
-    firstBtn: "Internal",
+    firstBtn: { title: "Internal", color: "#ddd" },
     secondBtn: "External",
     color: "bg-cyan-100",
     buttonColor: "bg-cyan-700",
+  },
+  {
+    name: "Junior School Certificate Examination (SSCE)",
+    desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
+    firstBtn: { title: "Internal", color: "#ddd" },
+    // secondBtn: "External",
+    color: "bg-cyan-100",
+    buttonColor: "bg-cyan-700",
+  },
+  {
+    name: "Senior School Certificate Examination (SSCE)",
+    desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
+    firstBtn: { title: "Internal", color: "#ddd" },
+    secondBtn: "External",
+    bg: "#4444",
+    buttonColor: "bg-black",
   },
 ];
 
@@ -27,18 +43,27 @@ const AboutOurExam = () => {
 
       <div className="grid md:grid-cols-2 gap-[2rem]">
         {allCards.map((card, index) => (
-          // <div
-          //   key={index}
-          //   className="border rounded-xl bg-[#DEECF0] py-[2rem] px-[2rem] flex flex-col gap-4"
-          // >
-           <div key={index} className={`border rounded-xl  bg-[#DEECF0] py-[2rem] px-[2rem] flex flex-col gap-4 ${card.color}`}>
-            <h1> {card.name}</h1>
+          <div
+            key={index}
+            style={{ backgroundColor: card.bg }}
+            className={`border rounded-xl  py-[2rem] px-[2rem] flex flex-col gap-4`}
+          >
+            <h1>{card.name}</h1>
             <p> {card.desc}</p>
-            <button>
-              {card.firstBtn}
-              {card.color}
-            </button>
-            <button> {card.secondBtn}</button>
+
+            <div className="flex gap-2">
+              <button
+                style={{ backgroundColor: card.firstBtn?.color }}
+                className="flex-1 border border-black"
+              >
+                {card.firstBtn?.title}
+              </button>
+              {card.secondBtn && (
+                <button className="flex-1 border border-black">
+                  {card.secondBtn}
+                </button>
+              )}
+            </div>
           </div>
         ))}
       </div>
