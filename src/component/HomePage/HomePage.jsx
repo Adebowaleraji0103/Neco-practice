@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 import Hero from "./Hero";
 import ImageSlider from "./ImageSlider";
 import LatestNews from "./LatestNews";
@@ -13,7 +12,6 @@ function HomePage() {
       <NecoGlobalReach />
       <Verification />
       <LatestNews />
-      <Footer />
     </div>
   );
 }

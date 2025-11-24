@@ -1,5 +1,5 @@
 const NavbarLink = [
-  { label: "Home", href: "/home" },
+  { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Our Exam", href: "/exam" },
   { label: "Payment", href: "/payment" },
