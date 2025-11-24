@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutPage from "./component/AboutPage/AboutPage";
 import HomePage from "./component/HomePage/HomePage";
-// import Navbar from "./component/Navbar/Navbar";
+import Navbar from "./component/Navbar/Navbar";
 import Footer from "./component/HomePage/Footer";
 import AboutOurExam from "./component/Our Exam/AboutOurExam";
 import Payment from "./component/AboutPage/Payment";
-import Navbar from "./component/Navbar";
 
 function App() {
   return (
