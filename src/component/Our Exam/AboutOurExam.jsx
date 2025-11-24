@@ -20,21 +20,27 @@ const AboutOurExam = () => {
         {allCards.map((card, index) => (
           <div
             key={index}
-            style={{ backgroundColor: card.backgroundColor, }}
+            style={{ backgroundColor: card.backgroundColor }}
             className={`border rounded-sm  py-[2rem] px-[2rem] flex flex-col gap-7 `}
           >
             <h1 className="font-bold text-[27px] uppercase">{card.name}</h1>
-            <p className="text-[17px] font-semibold text-gray-800"> {card.desc}</p>
+            <p className="text-[17px] font-semibold text-gray-800">
+              {" "}
+              {card.desc}
+            </p>
 
-            <div className="flex gap-2 font-semibold text-white">
+            <div className="flex gap-2 font-semibold text-xl text-white">
               <button
-                style={{ backgroundColor: card.firstBtn?.bgcolor, color:card.btnTextcolor,}}
-                className="flex-1 py-4 text-xl "
+                style={{
+                  backgroundColor: card.firstBtn?.bgcolor,
+                  color: card.btnTextcolor,
+                }}
+                className="flex-1 py-4  "
               >
                 {card.firstBtn?.title}
               </button>
               {card.secondBtn && (
-                <button className="flex-1 border border-black">
+                <button className="flex-1 border border-black text-[#054c0f]">
                   {card.secondBtn}
                 </button>
               )}
