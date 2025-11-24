@@ -1,3 +1,4 @@
+import { allCards } from "./examProductCard";
 
 const AboutOurExam = () => {
   return (
