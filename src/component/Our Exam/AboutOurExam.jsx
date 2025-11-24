@@ -21,15 +21,15 @@ const AboutOurExam = () => {
           <div
             key={index}
             style={{ backgroundColor: card.backgroundColor, }}
-            className={`border rounded-xl  py-[2rem] px-[2rem] flex flex-col gap-4`}
+            className={`border rounded-sm  py-[2rem] px-[2rem] flex flex-col gap-7 `}
           >
-            <h1>{card.name}</h1>
-            <p> {card.desc}</p>
+            <h1 className="font-bold text-[27px] uppercase">{card.name}</h1>
+            <p className="text-[17px] font-semibold text-gray-600"> {card.desc}</p>
 
             <div className="flex gap-2">
               <button
-                style={{ backgroundColor: card.firstBtn?.color, color:card.btnTextcolor}}
-                className="flex-1 border border-black py-4 font-semibold "
+                style={{ backgroundColor: card.firstBtn?.color, color:card.btnTextcolor,}}
+                className="flex-1 py-4 font-semibold "
               >
                 {card.firstBtn?.title}
               </button>
