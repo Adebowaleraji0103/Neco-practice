@@ -2,6 +2,7 @@
     {
       name: "Senior School Certificate Examination (SSCE)",
       desc: "The Senior School Certificate Examination (SSCE) Internal, is the examination conducted for candidates at the end of their Secondary School Education and the SSCE External is conducted for candidates that have attempted and have deficiency(ies) to make-up.",
+      btnTextcolor: "#ffff",
       firstBtn: { title: "Internal", color: "#054c0f" },
       secondBtn: "External",
       backgroundColor: "#ecfaf3",
