@@ -24,12 +24,12 @@ const AboutOurExam = () => {
             className={`border rounded-sm  py-[2rem] px-[2rem] flex flex-col gap-7 `}
           >
             <h1 className="font-bold text-[27px] uppercase">{card.name}</h1>
-            <p className="text-[17px] font-semibold text-gray-600"> {card.desc}</p>
+            <p className="text-[17px] font-semibold text-gray-800"> {card.desc}</p>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 font-semibold text-white">
               <button
-                style={{ backgroundColor: card.firstBtn?.color, color:card.btnTextcolor,}}
-                className="flex-1 py-4 font-semibold "
+                style={{ backgroundColor: card.firstBtn?.bgcolor, color:card.btnTextcolor,}}
+                className="flex-1 py-4 text-xl "
               >
                 {card.firstBtn?.title}
               </button>
