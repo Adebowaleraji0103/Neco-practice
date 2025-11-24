@@ -20,7 +20,7 @@ const AboutOurExam = () => {
         {allCards.map((card, index) => (
           <div
             key={index}
-            style={{ backgroundColor: card.bg }}
+            style={{ backgroundColor: card.backgroundColor }}
             className={`border rounded-xl  py-[2rem] px-[2rem] flex flex-col gap-4`}
           >
             <h1>{card.name}</h1>
@@ -29,7 +29,7 @@ const AboutOurExam = () => {
             <div className="flex gap-2">
               <button
                 style={{ backgroundColor: card.firstBtn?.color }}
-                className="flex-1 border border-black"
+                className="flex-1 border border-black py-4 font-semibold"
               >
                 {card.firstBtn?.title}
               </button>
