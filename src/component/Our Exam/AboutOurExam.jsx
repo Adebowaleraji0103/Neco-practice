@@ -3,7 +3,7 @@ import { allCards } from "./examProductCard";
 const AboutOurExam = () => {
   return (
     <div className="flex flex-col gap-[4rem] py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem]">
-      <div className="flex flex-col gap-[1.5rem] text-[#6b7280]  ">
+      <div className="flex flex-col gap-[1.5rem] text-center text-[#6b7280]  ">
         <h1 className="text-[25px] font-bold text-black ">
           About Our Examinations
         </h1>
@@ -20,12 +20,11 @@ const AboutOurExam = () => {
         {allCards.map((card, index) => (
           <div
             key={index}
-            style={{ backgroundColor: card.backgroundColor }}
+            style={{ backgroundColor: card.backgroundColor, borderWidth: 1, borderColor:card.border }}
             className={`border rounded-sm  py-[2rem] px-[2rem] flex flex-col gap-7 `}
           >
-            <h1 className="font-bold text-[27px] uppercase">{card.name}</h1>
+            <h1 className="font-bold text-[24px] uppercase md:text-[27px]">{card.name}</h1>
             <p className="text-[17px] font-semibold text-gray-800">
-              {" "}
               {card.desc}
             </p>
 
