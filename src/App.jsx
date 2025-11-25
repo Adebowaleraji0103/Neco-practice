@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutPage from "./component/AboutPage/AboutPage";
 import HomePage from "./component/HomePage/HomePage";
 import Navbar from "./component/Navbar/Navbar";
-import Footer from "./component/HomePage/Footer";
+// import Footer from "./component/HomePage/Footer";
 import AboutOurExam from "./component/Our Exam/AboutOurExam";
 import Payment from "./component/AboutPage/Payment";
 
@@ -17,7 +17,7 @@ function App() {
           <Route path="/exam" element={<AboutOurExam />} />
           <Route path="/payment" element={<Payment />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );
