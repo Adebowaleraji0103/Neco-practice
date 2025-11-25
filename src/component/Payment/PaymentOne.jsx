@@ -1,4 +1,4 @@
-const Payment = () => {
+const PaymentOne = () => {
   return (
     <div className="p-[10rem] bg-amber-600">
       <div>
@@ -14,4 +14,4 @@ const Payment = () => {
   );
 };
 
-export default Payment;
+export default PaymentOne;
