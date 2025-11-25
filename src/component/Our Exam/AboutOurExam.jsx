@@ -4,7 +4,7 @@ const AboutOurExam = () => {
   return (
     <div className="flex flex-col gap-[4rem] py-7 px-7 mt-[5rem] md:py-11 md:px-[7rem]">
       <div className="flex flex-col gap-[1.5rem] text-center text-[#6b7280]  ">
-        <h1 className="text-[25px] font-bold text-black ">
+        <h1 className="text-[25px] font-bold  ">
           About Our Examinations
         </h1>
         <p>
@@ -34,7 +34,7 @@ const AboutOurExam = () => {
               {card.desc}
             </p>
 
-              <div className="flex gap-2 font-semibold text-xl text-white">
+              <div className="flex gap-2 font-semibold text-xl text-purple-500">
                 <button
                   style={{
                     backgroundColor: card.firstBtn?.bgcolor, color: card.btnTextcolor,}}
