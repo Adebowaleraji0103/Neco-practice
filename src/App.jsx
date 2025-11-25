@@ -3,7 +3,7 @@ import AboutPage from "./component/AboutPage/AboutPage";
 import HomePage from "./component/HomePage/HomePage";
 import Navbar from "./component/Navbar/Navbar";
 import OurExam from "./component/Our Exam/OurExam";
-import Payment from "./component/Payment/PaymentOne";
+import Payment from "./component/Payment/Payment";
 import Footer from "./component/HomePage/Footer";
 
 function App() {

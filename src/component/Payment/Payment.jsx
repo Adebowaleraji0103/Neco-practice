@@ -1,7 +1,9 @@
+import PaymentOne from "./PaymentOne";
+
 const Payment = () => {
     return ( 
         <div>
-            <Paymen/>
+            <PaymentOne/>
         </div>
      );
 }
