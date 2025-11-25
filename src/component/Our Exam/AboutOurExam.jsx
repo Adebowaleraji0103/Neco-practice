@@ -20,31 +20,40 @@ const AboutOurExam = () => {
         {allCards.map((card, index) => (
           <div
             key={index}
-            style={{ backgroundColor: card.backgroundColor, borderWidth: 1, borderColor:card.border }}
+            style={{
+              backgroundColor: card.backgroundColor,
+              borderWidth: 1,
+              borderColor: card.border,
+            }}
             className={`border rounded-sm  py-[2rem] px-[2rem] flex flex-col gap-7 `}
           >
-            <h1 className="font-bold text-[24px] uppercase md:text-[27px]">{card.name}</h1>
+            <h1 className="font-bold text-[24px] uppercase md:text-[27px]">
+              {card.name}
+            </h1>
             <p className="text-[17px] font-semibold text-gray-800">
               {card.desc}
             </p>
 
-            <div className="flex gap-2 font-semibold text-xl text-white">
-              <button
-                style={{
-                  backgroundColor: card.firstBtn?.bgcolor,
-                  color: card.btnTextcolor,
-                }}
-                className="flex-1 py-4  "
+              <a
+                href="#"
+                className="flex gap-2 font-semibold text-xl text-white"
               >
-                {card.firstBtn?.title}
-              </button>
-              {card.secondBtn && (
-                <button className="flex-1 border border-black text-[#054c0f]">
-                  {card.secondBtn}
+                <button
+                  style={{
+                    backgroundColor: card.firstBtn?.bgcolor,
+                    color: card.btnTextcolor,
+                  }}
+                  className="flex-1 py-4  "
+                >
+                  {card.firstBtn?.title}
                 </button>
-              )}
+                {card.secondBtn && (
+                  <button className="flex-1 border border-black text-[#054c0f]">
+                    {card.secondBtn}
+                  </button>
+                )}
+              </a>
             </div>
-          </div>
         ))}
       </div>
     </div>
