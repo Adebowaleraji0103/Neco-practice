@@ -34,25 +34,20 @@ const AboutOurExam = () => {
               {card.desc}
             </p>
 
-              <a
-                href="#"
-                className="flex gap-2 font-semibold text-xl text-white"
-              >
+              <div className="flex gap-2 font-semibold text-xl text-white">
                 <button
                   style={{
-                    backgroundColor: card.firstBtn?.bgcolor,
-                    color: card.btnTextcolor,
-                  }}
+                    backgroundColor: card.firstBtn?.bgcolor, color: card.btnTextcolor,}}
                   className="flex-1 py-4  "
                 >
                   {card.firstBtn?.title}
                 </button>
                 {card.secondBtn && (
-                  <button className="flex-1 border border-black text-[#054c0f]">
+                  <button className="flex-1 border border-black text-[#054c0f] cursor-pointer ">
                     {card.secondBtn}
                   </button>
                 )}
-              </a>
+              </div>
             </div>
         ))}
       </div>
