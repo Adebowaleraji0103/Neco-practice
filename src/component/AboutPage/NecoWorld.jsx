@@ -29,5 +29,10 @@ const allCard = [
   },
 ];
 
-
-export default NecoWorldWide;
+const NecoWorld = () => {
+  return (  
+    
+  );
+}
+ 
+export default NecoWorld;
