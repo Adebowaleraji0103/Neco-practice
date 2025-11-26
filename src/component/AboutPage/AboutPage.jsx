@@ -1,4 +1,3 @@
-// import NecoWorldWide from "./NecoWorldwide";
 import NecoWorld from "./NecoWorld";
 import OurHsitory from "./OurHistory";
 import OurPurpose from "./OurPurpose";
@@ -9,8 +8,6 @@ function AboutPage() {
       <OurHsitory />
       <OurPurpose />
       <NecoWorld/>
-      {/* <NecoWorldWide /> */}
-      <NecoWorldWide/>
     </div>
   );
 }

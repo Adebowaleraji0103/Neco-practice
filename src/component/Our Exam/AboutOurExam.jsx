@@ -34,7 +34,7 @@ const AboutOurExam = () => {
               {card.desc}
             </p>
 
-              <div className="flex gap-2 font-semibold text-xl text-purple-500">
+              <div className="flex gap-2 font-semibold text-xl text-white">
                 <button
                   style={{
                     backgroundColor: card.firstBtn?.bgcolor, color: card.btnTextcolor,}}
