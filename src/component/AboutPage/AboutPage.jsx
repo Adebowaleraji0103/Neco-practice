@@ -7,6 +7,7 @@ function AboutPage() {
     <div className=" ">
       <OurHsitory />
       <OurPurpose />
+      <NecoWorldWide/>
       {/* <NecoWorldWide /> */}
       <NecoWorldWide/>
     </div>
