@@ -17,7 +17,6 @@ function App() {
           <Route path="/exam" element={<OurExam />} />
           <Route path="/payment" element={<Payment />} />
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </div>
