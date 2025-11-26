@@ -1,4 +1,5 @@
 // import NecoWorldWide from "./NecoWorldwide";
+import NecoWorld from "./NecoWorld";
 import OurHsitory from "./OurHistory";
 import OurPurpose from "./OurPurpose";
 
@@ -7,7 +8,7 @@ function AboutPage() {
     <div className=" ">
       <OurHsitory />
       <OurPurpose />
-      <NecoWorldWide/>
+      <NecoWorld/>
       {/* <NecoWorldWide /> */}
       <NecoWorldWide/>
     </div>
